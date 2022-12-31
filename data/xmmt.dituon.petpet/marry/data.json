@@ -1,0 +1,11 @@
+{
+    "type": "IMG",
+    "avatar": [{
+        "type": "TO",
+        "pos": [0,0,800,877],
+        "round": false,
+        "avatarOnTop": false
+    }],
+    "text": [],
+    "alias": ["结婚"]
+}

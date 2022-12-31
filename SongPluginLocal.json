@@ -1,0 +1,10 @@
+[
+  {
+    "title": "标题",
+    "desc": "副标题",
+    "previewUrl": "专辑图片url",
+    "musicUrl": "音乐播放url",
+    "jumpUrl": "点击跳转url",
+    "source": "本地"
+  }
+]

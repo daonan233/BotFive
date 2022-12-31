@@ -1,0 +1,11 @@
+{
+    "type": "IMG",
+    "avatar": [{
+        "type": "TO",
+        "pos": [327,232,115,115],
+        "round": false,
+        "avatarOnTop": false
+    }],
+    "text": [],
+    "alias": ["需要"]
+}

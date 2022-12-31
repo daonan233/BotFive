@@ -1,0 +1,16 @@
+{
+    "type": "IMG",
+    "avatar": [],
+    "text": [
+        {
+            "text": "$txt1[osu!]",
+            "color": "ffffff",
+            "pos": [175,175,230],
+            "size": 104,
+            "font": "MiSans Bold",
+            "wrap": "ZOOM",
+            "align": "CENTER"
+        }
+    ],
+    "inRandomList": false
+}

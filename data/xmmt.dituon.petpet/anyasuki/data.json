@@ -1,0 +1,18 @@
+{
+    "type": "IMG",
+    "avatar": [{
+        "type": "TO",
+        "pos": [106,72,305,235],
+        "round": false,
+        "avatarOnTop": false
+    }],
+    "text": [{
+        "text": "阿尼亚喜欢$txt1[这个]",
+        "pos": [237,460],
+        "color": "#ffffff",
+        "font": "MiSans Bold",
+        "size": 40,
+        "align": "CENTER"
+    }],
+    "alias": ["阿尼亚","喜欢"]
+}

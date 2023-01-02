@@ -6,12 +6,15 @@
 2. 按名字搜索音乐并以xml形式发送：MiraiSongPlugin-2.7-1.2.1<br>
 3. 生成一些拍拍图等：petpet-5.3<br>
 4. 群聊大富翁文字版：MonopolyForMirai-0.1.2.mirai2<br>
+5. 生成5000兆円欲しい!风格图片：5000choyen-1.0.0<br>
 
 其中用到的Jar包来源有：
 
    1.<https://github.com/heziblack/MonopolyForMirai>
 
    2.<https://github.com/Dituon/petpet>
+   
+   3.<https://github.com/xszqxszq/5000choyen-mirai>
 
 参考网站：
 

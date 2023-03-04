@@ -1,0 +1,33 @@
+proxy: 'http://127.0.0.1:7890'
+# DNS Over Https
+doh: 'https://public.dns.iij.jp/dns-query'
+# 启用 ipv6 连接，如果本机因不支持ipv6导致异常，可以尝试关闭
+ipv6: false
+# API 超时时间, 如果出现 TimeoutException 时, 请尝试调大
+timeout: 30000
+# OPENAI_TOKEN https://beta.openai.com/account/api-keys
+token: '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'
+# 发生错误时回复用户
+error_reply: true
+# 停止聊天时回复用户
+end_reply: false
+# 自定义模型触发前缀
+completion_prefix: '? '
+# 图片生成触发前缀
+image_prefix: !
+# 聊天模型触发前缀
+chat_prefix: chat
+# 聊天模型触发于@
+chat_by_at: false
+# 问答模型触发前缀
+question_prefix: Q&A
+# 重载配置触发前缀
+reload_prefix: 'openai-reload'
+# 停止聊天或问答
+stop: stop
+# 图片生成缓存文件夹
+image_folder: 'C:\Users\道难\Desktop\各种文件夹（常用）\mcl-2.1.2\data\xyz.cssxsh.mirai.plugin.mirai-openai-plugin\image'
+# 聊天服务个数限制
+chat_limit: 10
+# 权限检查
+has_permission: false

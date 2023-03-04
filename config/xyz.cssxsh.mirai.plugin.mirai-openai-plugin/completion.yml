@@ -1,0 +1,20 @@
+# Model
+model: 'text-davinci-003'
+suffix: ''
+# Maximum length
+max_tokens: 1024
+# Temperature
+temperature: 1.0
+# Top P
+top_p: 1.0
+n: 1
+echo: false
+# Stop sequences
+stop: []
+# Presence Penalty
+presence_penalty: 0.0
+# Frequency Penalty
+frequency_penalty: 0.0
+# Best of
+best_of: 1
+logit_bias: {}

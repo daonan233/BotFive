@@ -1,0 +1,11 @@
+topFont: Source Han Sans CN Bold
+bottomFont: Source Han Serif SC Bold
+transparency: false
+commands: 
+  - '/生成5k'
+  - 生成5k
+  - '/gocho'
+  - gocho
+  - '/choyen'
+  - choyen
+  - '/5k'

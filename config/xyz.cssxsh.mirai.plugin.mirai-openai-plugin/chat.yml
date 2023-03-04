@@ -1,0 +1,14 @@
+# 等待停止时间
+timeout: 20000
+# Model
+model: 'text-davinci-003'
+# Maximum length
+max_tokens: 512
+# Temperature
+temperature: 0.9
+# Top P
+top_p: 1.0
+# Presence Penalty
+presence_penalty: 0.6
+# Frequency Penalty
+frequency_penalty: 0.0

@@ -6,8 +6,10 @@ ipv6: false
 # API 超时时间, 如果出现 TimeoutException 时, 请尝试调大
 timeout: 30000
 # OPENAI_TOKEN https://beta.openai.com/account/api-keys
-token: 'sk-3bD6SXb19mpwOOu8bBZj
-T3BlbkFJMuWE2XQNVmAzGvl5F6K3'
+token: 'sk-3bD6SX
+##b19mpwOOu8bBZj
+##T3BlbkFJMuWE2
+##XQNVmAzGvl5F6K3'
 # 发生错误时回复用户
 error_reply: true
 # 停止聊天时回复用户

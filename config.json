@@ -9,19 +9,19 @@
   "packages": {
     "net.mamoe:mirai-console": {
       "channel": "maven-stable",
-      "version": "2.13.2",
+      "version": "2.14.0",
       "type": "libs",
       "versionLocked": false
     },
     "net.mamoe:mirai-console-terminal": {
       "channel": "maven-stable",
-      "version": "2.13.2",
+      "version": "2.14.0",
       "type": "libs",
       "versionLocked": false
     },
     "net.mamoe:mirai-core-all": {
       "channel": "maven-stable",
-      "version": "2.13.2",
+      "version": "2.14.0",
       "type": "libs",
       "versionLocked": false
     },

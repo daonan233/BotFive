@@ -1,86 +1,89 @@
-# BotFive
+# Mirai Console Loader
 
-一个基于Mirai-Java框架的群聊机器人，完善中~
+[![GitHub release](https://img.shields.io/github/v/release/itxtech/mirai-console-loader?label=stable)](https://github.com/iTXTech/mirai-console-loader/releases)
+[![Maven Central](https://img.shields.io/maven-central/v/org.itxtech/mcl)](https://repo.maven.apache.org/maven2/org/itxtech/mcl/)
+[![MiraiForum](https://img.shields.io/badge/post-on%20MiraiForum-yellow)](https://mirai.mamoe.net/topic/177)
 
-### 目前已完成以下内容：<br>
+模块化、轻量级且支持完全自定义的 [mirai](https://github.com/mamoe/mirai) 加载器。
 
-- 对用户的命令进行对应回应：BotFive-1.0.2（恭喜笨比bot55进入智能时代1.x.x）<br>
-- 按名字搜索音乐并以xml形式发送：MiraiSongPlugin-2.7-1.2.1<br>
-- 生成一些拍拍图等：petpet-5.3<br>
-- 群聊大富翁文字版：MonopolyForMirai-0.1.2.mirai2<br>
-- 生成5000兆円欲しい!风格图片：5000choyen-1.0.0<br>
-- 基于chatGPT的智能问答：mirai-openai-plugin-1.1.0.mirai2<br>
+开发者请参见 [MCL 开发文档](docs/README.md)。
 
-___
+## 简介
 
-### 其中用到的Jar包来源有：
+`iTX Technologies Mirai Console Loader`（下简称`MCL`）采用模块化设计，包含以下几个基础模块：
 
-1.   <https://github.com/heziblack/MonopolyForMirai>
-2.   <https://github.com/Dituon/petpet>
-3.   <https://github.com/xszqxszq/5000choyen-mirai>
-4.   <https://github.com/cssxsh/mirai-openai-plugin>
+* `Module` 模块管理器，用于加载和执行模块，`MCL`的主要功能均由模块实现。模块执行有各个阶段，详见开发文档。
+* `Config` 配置文件模块，用于配置的持久化。
+* `Package` 包管理器。
+* `Downloader` 下载器模块，用于下载文件，并实时返回进度。
+* `Logger` 日志模块，用于向控制台输出日志。
 
-### 参考网站：
+## [`MCL` 命令行文档](cli.md)
 
-1.   <https://github.com/mamoe/mirai>
-2.   <https://mirai.mamoe.net/>
+该文档将教会您如何`安装插件`，`禁用和启用脚本`，`修改包的更新频道`等操作。
 
-___
+## 使用 `iTXTech MCL`
 
-### 具体配置方法：
+### 一键安装
 
-1. 先将本仓库克隆到本地，打开后删除bots文件夹（里面存储原账号的信息）
+[iTXTech MCL Installer](https://github.com/iTXTech/mcl-installer) 能在所有操作系统上一键安装 `iTXTech MCL`。
 
-2. 然后进入/config/Console/autologin.yml，删除第二段  ***- # 账号, 现只支持 QQ 数字账号***  以下的内容
+### 手动安装
 
-3. 返回根目录，打开mcl.cmd。等待全部加载完毕出现输入框后，输入
+1. 安装 Java 运行时（版本必须 >= 11）
+2. 从 [Releases](https://github.com/iTXTech/mirai-console-loader/releases) 下载最新版本的`MCL`
+3. 解压到某处
+4. 在命令行中执行`.\mcl`以启动`MCL`
 
-   ```
-   login qq账号 qq密码
-   ```
+#### 在`*nix`下通过命令行安装
 
-4. 如果想要将该账号添加为自动登录，可以输入
+```bash
+mkdir mcl
+cd mcl
+wget https://github.com/iTXTech/mirai-console-loader/releases/download/v2.1.1/mcl-2.1.1.zip
+unzip mcl-2.1.1.zip
+chmod +x mcl
+./mcl
+```
 
-   ```
-   autologin add qq账号 qq密码
-   ```
+## `Mirai Repo` 列表
 
-5. 接下来会出现需要滑动验证的内容，我们以电脑端操作为例（虽然Mirai官方更推荐使用android手机端登陆验证），将最后一段的link后的网址复制到浏览器，f12打开看网页检查，监视网络，进行滑块验证后获取ticket。在mcl窗口提交ticket，即可登录。（当然也可以使用TxCaptchaHelper等工具进行辅助登录，可自行查询）。
+* [iTXTech](https://repo.itxtech.org) - **默认** - Cloudflare Pages
+* [Mamoe](https://mcl.repo.mamoe.net) - GitHub Pages
+* [GitHub](https://github.com/project-mirai/mirai-repo-mirror) - 源仓库
 
-![](https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaEJzbFI3bFlkOTVnVTNFc0lQOXJqQjRDdzdPP2U9N1lTcE5x.jpg)
+## `Maven Repo` 列表
 
-___
+* [Maven Central](https://repo1.maven.org/maven2/) - `Maven Central`上游
+* [Aliyun](https://maven.aliyun.com/repository/public) - **默认**，阿里云`Maven`镜像，国内访问速度快
+* [HuaweiCloud](https://mirrors.huaweicloud.com/repository/maven) - 华为云`Maven`镜像，阿里云不可用时的备选方案
 
-### 更新方式：
+## 安装`MCL Module`扩展组件
 
-该上传的版本可能未将mcl升级到最新的2.14.0版本（该版本增加了短信验证登录功能）。如果需要，可以参考以下步骤：
+1. 在 `mcl` 运行目录下新建 `modules` 目录
+2. 将 目标Jar 放入该目录
+3. ~~编辑 `config.json` 中 `module_packages` 字段，添加入 `jar文件名（不带扩展名）:包名`~~ 
 
-- 打开根目录下的config.json，将原来对应的部分替换为
+新版 MCL Module 加载将使用 Java SPI Service 的加载方式，不需要再配置 `module_packages` 字段
 
-  ```yml
-    "net.mamoe:mirai-console": {
-        "channel": "maven-stable",
-        "version": "2.13.3",
-        "type": "libs",
-        "versionLocked": false
-      },
-  ```
+## `MCL` 默认支持 `Mirai 2.11` 及以上插件格式
 
-- 打开cmd.exe，进入本仓库根目录在本地的位置，输入
+若需要默认使用旧版插件格式，请移除`config.json`的`archiveSuffix`中的`.mirai2.jar`字段。
 
-  ```
-  mcl -u
-  ```
+## 开源许可证
 
-- 等待更新即可。这也是一种打开mcl的方式。
+    iTXTech Mirai Console Loader
+    Copyright (C) 2020-2022 iTX Technologies
 
-___
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
 
-- 2023/3/14更新，在过去的一周半内，目前该项目启动时在电脑上已经报出code=45/235/237三种错误，尝试过更新到mcl 2.14.0、删除device.json、删除bots根目录、保持手机登录等多种方法，在未知有新错误的情况下，应该是作者的四个qq号都被风控了qwq
-<br>
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
 
-- 因此本项目暂时不再更新，后续更新时间未知。
-
-___
-- 2023/3/29更新，加入fix-protocol插件之后，在yml手动setConfig protocol MACOS，成功修复，本项目继续更新~
-
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.

@@ -42,7 +42,7 @@ threadPoolSize: 0
 # 是否自动从仓库同步PetData
 autoUpdate: true
 # 用于自动更新的仓库地址
-repositoryUrl: 'https://raw.githubusercontent.com/Dituon/petpet/main'
+repositoryUrl: 'https://ghproxy.com/https://raw.githubusercontent.com/Dituon/petpet/main'
 # 是否启用开发模式 (支持热重载)
 devMode: false
 # 是否启用消息注入 (详见文档)

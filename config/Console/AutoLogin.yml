@@ -28,4 +28,5 @@ accounts:
     # "device": "device.json"
     # "enable": true
     # "heartbeatStrategy": "STAT_HB" / "REGISTER" / "NONE"
-    configuration: {}
+    configuration: 
+      protocol: MACOS

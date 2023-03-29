@@ -1,0 +1,377 @@
+2023-03-14 16:36:45 I/main: Starting mirai-console...
+2023-03-14 16:36:45 I/main: 
+
+==================================[ Mirai consosle 2.14.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-03-14 16:36:45 I/main: Backend: version 2.14.0, built on 2023-02-06 14:25:21.
+2023-03-14 16:36:45 I/main: Frontend Terminal: version 2.14.0, provided by Mamoe Technologies
+2023-03-14 16:36:45 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-03-14 16:36:47 I/plugin: Successfully loaded plugin 5000choyen v1.0.0
+2023-03-14 16:36:47 I/plugin: Successfully loaded plugin Demo8 v0.1.0
+2023-03-14 16:36:48 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.9
+2023-03-14 16:36:48 I/plugin: Successfully loaded plugin mirai-openai-plugin v1.1.0
+2023-03-14 16:36:48 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2023-03-14 16:36:48 I/plugin: Successfully loaded plugin 大富翁 v0.1.2
+2023-03-14 16:36:48 I/plugin: Successfully loaded plugin PetPet v5.2
+2023-03-14 16:36:48 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-03-14 16:36:48 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-03-14 16:36:48 I/5000choyen: 5000choyen 插件已成功加载
+2023-03-14 16:36:49 I/mirai-openai-plugin: 权限检查未开启
+2023-03-14 16:36:49 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:36:49 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2023-03-14 16:36:49 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2023-03-14 16:36:49 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:232)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:305)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:35)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:50)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:181)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:347)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:496)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:177)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:176)
+2023-03-14 16:36:49 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:54)
+2023-03-14 16:36:49 W/stderr: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023-03-14 16:36:49 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2023-03-14 16:36:49 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2023-03-14 16:36:49 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:36:49 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2023-03-14 16:36:49 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2023-03-14 16:36:49 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2023-03-14 16:36:49 W/stderr: 	... 25 more
+2023-03-14 16:36:49 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:36:49 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2023-03-14 16:36:49 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)
+2023-03-14 16:36:49 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+2023-03-14 16:36:49 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2023-03-14 16:36:49 W/stderr: 	... 27 more
+2023-03-14 16:36:49 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2023-03-14 16:36:49 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2023-03-14 16:36:49 I/点歌插件: 插件加载完毕!
+2023-03-14 16:36:49 I/大富翁: 读取配置
+2023-03-14 16:36:49 I/大富翁: bot主人：2894566646
+2023-03-14 16:36:49 I/大富翁: 工作群聊：[729050446, 633294792, 728615991]
+2023-03-14 16:36:49 I/大富翁: 加载地图ing
+2023-03-14 16:36:49 I/大富翁: 地图列表：
+2023-03-14 16:36:49 I/大富翁: 1:默认地图
+2023-03-14 16:36:49 I/大富翁: 初始化完成
+2023-03-14 16:36:49 I/stdout: Petpet GifMakerThreadPoolSize: 13
+2023-03-14 16:36:49 I/stdout: ヾ(≧▽≦*)o Petpet 初始化成功，使用 pet 以获取keyList!
+2023-03-14 16:36:50 I/stdout: registerFontsToAwt成功: [Aller-Bold.ttf, MiSans-Bold.ttf]
+2023-03-14 16:36:50 I/stdout: Petpet 加载完毕 (共 84 素材，随机表列包含 48 素材，已禁用 0)
+2023-03-14 16:36:50 I/PetPet: 
+
+    ██████╗ ███████╗████████╗██████╗ ███████╗████████╗
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+    ██████╔╝█████╗     ██║   ██████╔╝█████╗     ██║   
+    ██╔═══╝ ██╔══╝     ██║   ██╔═══╝ ██╔══╝     ██║   
+    ██║     ███████╗   ██║   ██║     ███████╗   ██║   
+    ╚═╝     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝   ╚═╝     v5.2
+
+2023-03-14 16:36:50 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-03-14 16:36:50 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-03-14 16:36:50 I/main: 8 plugin(s) enabled.
+2023-03-14 16:36:50 I/main: mirai-console started successfully.
+2023-03-14 16:37:04 I/Bot.2408755952: Calculating type 2 PoW, it can take some time....
+2023-03-14 16:37:04 I/Bot.2408755952: Got PoW result, cost: 130 ms
+2023-03-14 16:37:46 I/Bot.2408755952: Bot cancelled: Bot closed
+2023-03-14 16:37:46 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:331)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-03-14 16:37:51 I/stdout: 无法连接到远程资源: https://raw.githubusercontent.com/Dituon/petpet/main/index.json
+2023-03-14 16:37:51 W/stderr: Exception in thread "Thread-3" java.lang.NullPointerException
+2023-03-14 16:37:51 W/stderr: 	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+2023-03-14 16:37:51 W/stderr: 	at petpet-5.3.jar//moe.dituon.petpet.plugin.DataUpdater.checkUpdate(DataUpdater.java:71)
+2023-03-14 16:37:51 W/stderr: 	at petpet-5.3.jar//moe.dituon.petpet.plugin.DataUpdater.autoUpdate(DataUpdater.java:30)
+2023-03-14 16:37:51 W/stderr: 	at petpet-5.3.jar//moe.dituon.petpet.mirai.MiraiPetpet.lambda$onEnable$0(MiraiPetpet.java:62)
+2023-03-14 16:37:51 W/stderr: 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 16:39:23 I/Bot.2408755952: Calculating type 2 PoW, it can take some time....
+2023-03-14 16:39:23 I/Bot.2408755952: Got PoW result, cost: 44 ms
+2023-03-14 16:40:02 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:331)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-03-14 16:40:02 I/Bot.2408755952: Bot cancelled: Bot closed
+2023-03-14 16:40:30 I/main: Starting mirai-console...
+2023-03-14 16:40:30 I/main: 
+
+==================================[ Mirai consosle 2.14.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-03-14 16:40:30 I/main: Backend: version 2.14.0, built on 2023-02-06 14:25:21.
+2023-03-14 16:40:30 I/main: Frontend Terminal: version 2.14.0, provided by Mamoe Technologies
+2023-03-14 16:40:30 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-03-14 16:40:31 I/plugin: Successfully loaded plugin 5000choyen v1.0.0
+2023-03-14 16:40:31 I/plugin: Successfully loaded plugin Demo8 v0.1.0
+2023-03-14 16:40:31 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.9
+2023-03-14 16:40:31 I/plugin: Successfully loaded plugin mirai-openai-plugin v1.1.0
+2023-03-14 16:40:31 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2023-03-14 16:40:31 I/plugin: Successfully loaded plugin 大富翁 v0.1.2
+2023-03-14 16:40:31 I/plugin: Successfully loaded plugin PetPet v5.2
+2023-03-14 16:40:31 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-03-14 16:40:31 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-03-14 16:40:31 I/5000choyen: 5000choyen 插件已成功加载
+2023-03-14 16:40:31 I/mirai-openai-plugin: 权限检查未开启
+2023-03-14 16:40:31 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:40:31 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2023-03-14 16:40:31 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2023-03-14 16:40:31 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:232)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:305)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:35)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:50)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:181)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:347)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:496)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:177)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:176)
+2023-03-14 16:40:31 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:54)
+2023-03-14 16:40:31 W/stderr: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023-03-14 16:40:31 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2023-03-14 16:40:31 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2023-03-14 16:40:31 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:40:31 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2023-03-14 16:40:31 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2023-03-14 16:40:31 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2023-03-14 16:40:31 W/stderr: 	... 25 more
+2023-03-14 16:40:31 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:40:31 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2023-03-14 16:40:31 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)
+2023-03-14 16:40:31 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+2023-03-14 16:40:31 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2023-03-14 16:40:31 W/stderr: 	... 27 more
+2023-03-14 16:40:31 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2023-03-14 16:40:31 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2023-03-14 16:40:31 I/点歌插件: 插件加载完毕!
+2023-03-14 16:40:31 I/大富翁: 读取配置
+2023-03-14 16:40:31 I/大富翁: bot主人：2894566646
+2023-03-14 16:40:31 I/大富翁: 工作群聊：[729050446, 633294792, 728615991]
+2023-03-14 16:40:31 I/大富翁: 加载地图ing
+2023-03-14 16:40:31 I/大富翁: 地图列表：
+2023-03-14 16:40:31 I/大富翁: 1:默认地图
+2023-03-14 16:40:31 I/大富翁: 初始化完成
+2023-03-14 16:40:31 I/stdout: Petpet GifMakerThreadPoolSize: 13
+2023-03-14 16:40:31 I/stdout: ヾ(≧▽≦*)o Petpet 初始化成功，使用 pet 以获取keyList!
+2023-03-14 16:40:32 I/stdout: registerFontsToAwt成功: [Aller-Bold.ttf, MiSans-Bold.ttf]
+2023-03-14 16:40:32 I/stdout: Petpet 加载完毕 (共 84 素材，随机表列包含 48 素材，已禁用 0)
+2023-03-14 16:40:32 I/PetPet: 
+
+    ██████╗ ███████╗████████╗██████╗ ███████╗████████╗
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+    ██████╔╝█████╗     ██║   ██████╔╝█████╗     ██║   
+    ██╔═══╝ ██╔══╝     ██║   ██╔═══╝ ██╔══╝     ██║   
+    ██║     ███████╗   ██║   ██║     ███████╗   ██║   
+    ╚═╝     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝   ╚═╝     v5.2
+
+2023-03-14 16:40:32 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-03-14 16:40:32 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-03-14 16:40:32 I/main: 8 plugin(s) enabled.
+2023-03-14 16:40:32 I/main: mirai-console started successfully.
+2023-03-14 16:40:32 I/stdout: PetpetPlugin可更新到最新版本: 5.3 (当前版本 5.2)  要养成经常更新的好习惯哦 (*/ω＼*)
+2023-03-14 16:40:40 I/Bot.2408755952: Calculating type 2 PoW, it can take some time....
+2023-03-14 16:40:40 I/Bot.2408755952: Got PoW result, cost: 76 ms
+2023-03-14 16:41:19 I/Bot.2408755952: Bot cancelled: Bot closed
+2023-03-14 16:41:19 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:331)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-03-14 16:42:14 I/Bot.2408755952: Calculating type 2 PoW, it can take some time....
+2023-03-14 16:42:14 I/Bot.2408755952: Got PoW result, cost: 47 ms
+2023-03-14 16:42:46 I/Bot.2408755952: Bot cancelled: Bot closed
+2023-03-14 16:42:46 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:331)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-03-14 16:47:50 I/main: Starting mirai-console...
+2023-03-14 16:47:50 I/main: 
+
+==================================[ Mirai consosle 2.14.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-03-14 16:47:50 I/main: Backend: version 2.14.0, built on 2023-02-06 14:25:21.
+2023-03-14 16:47:50 I/main: Frontend Terminal: version 2.14.0, provided by Mamoe Technologies
+2023-03-14 16:47:50 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-03-14 16:47:52 I/plugin: Successfully loaded plugin 5000choyen v1.0.0
+2023-03-14 16:47:52 I/plugin: Successfully loaded plugin Demo8 v0.1.0
+2023-03-14 16:47:53 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.9
+2023-03-14 16:47:53 I/plugin: Successfully loaded plugin mirai-openai-plugin v1.1.0
+2023-03-14 16:47:53 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2023-03-14 16:47:53 I/plugin: Successfully loaded plugin 大富翁 v0.1.2
+2023-03-14 16:47:53 I/plugin: Successfully loaded plugin PetPet v5.2
+2023-03-14 16:47:53 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-03-14 16:47:53 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-03-14 16:47:53 I/5000choyen: 5000choyen 插件已成功加载
+2023-03-14 16:47:53 I/mirai-openai-plugin: 权限检查未开启
+2023-03-14 16:47:53 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:47:53 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2023-03-14 16:47:53 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2023-03-14 16:47:53 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:232)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:305)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:35)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:50)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:181)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:347)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:496)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:177)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:176)
+2023-03-14 16:47:53 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:54)
+2023-03-14 16:47:54 W/stderr: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023-03-14 16:47:54 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2023-03-14 16:47:54 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2023-03-14 16:47:54 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:47:54 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2023-03-14 16:47:54 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2023-03-14 16:47:54 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2023-03-14 16:47:54 W/stderr: 	... 25 more
+2023-03-14 16:47:54 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2023-03-14 16:47:54 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2023-03-14 16:47:54 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)
+2023-03-14 16:47:54 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+2023-03-14 16:47:54 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2023-03-14 16:47:54 W/stderr: 	... 27 more
+2023-03-14 16:47:54 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2023-03-14 16:47:54 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2023-03-14 16:47:54 I/点歌插件: 插件加载完毕!
+2023-03-14 16:47:54 I/大富翁: 读取配置
+2023-03-14 16:47:54 I/大富翁: bot主人：2894566646
+2023-03-14 16:47:54 I/大富翁: 工作群聊：[729050446, 633294792, 728615991]
+2023-03-14 16:47:54 I/大富翁: 加载地图ing
+2023-03-14 16:47:54 I/大富翁: 地图列表：
+2023-03-14 16:47:54 I/大富翁: 1:默认地图
+2023-03-14 16:47:54 I/大富翁: 初始化完成
+2023-03-14 16:47:54 I/stdout: Petpet GifMakerThreadPoolSize: 13
+2023-03-14 16:47:54 I/stdout: ヾ(≧▽≦*)o Petpet 初始化成功，使用 pet 以获取keyList!
+2023-03-14 16:47:54 I/stdout: registerFontsToAwt成功: [Aller-Bold.ttf, MiSans-Bold.ttf]
+2023-03-14 16:47:54 I/stdout: Petpet 加载完毕 (共 84 素材，随机表列包含 48 素材，已禁用 0)
+2023-03-14 16:47:54 I/PetPet: 
+
+    ██████╗ ███████╗████████╗██████╗ ███████╗████████╗
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+    ██████╔╝█████╗     ██║   ██████╔╝█████╗     ██║   
+    ██╔═══╝ ██╔══╝     ██║   ██╔═══╝ ██╔══╝     ██║   
+    ██║     ███████╗   ██║   ██║     ███████╗   ██║   
+    ╚═╝     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝   ╚═╝     v5.2
+
+2023-03-14 16:47:54 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-03-14 16:47:54 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-03-14 16:47:55 I/main: 8 plugin(s) enabled.
+2023-03-14 16:47:55 I/main: Auto-login 2408755952, protocol: ANDROID_PHONE, heartbeatStrategy: STAT_HB
+2023-03-14 16:47:55 I/stdout: PetpetPlugin可更新到最新版本: 5.3 (当前版本 5.2)  要养成经常更新的好习惯哦 (*/ω＼*)
+2023-03-14 16:47:56 I/Bot.2408755952: Calculating type 2 PoW, it can take some time....
+2023-03-14 16:47:56 I/Bot.2408755952: Got PoW result, cost: 125 ms
+2023-03-14 16:48:35 E/main: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2408755952), code=235, title=温馨提示, message=当前QQ版本过低，请升级至最新版本后再登录。点击进入下载页面, errorInfo= )
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:331)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-03-14 16:48:35 I/Bot.2408755952: Bot cancelled: Bot closed
+2023-03-14 16:48:35 I/main: mirai-console started successfully.

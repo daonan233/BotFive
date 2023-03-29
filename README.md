@@ -82,5 +82,5 @@ ___
 - 因此本项目暂时不再更新，后续更新时间未知。
 
 ___
-- 2023/3/29更新，加入fix-protocol插件之后，在yml手动setConfig protocol MACOS后，成功修复，本项目继续更新~
+- 2023/3/29更新，加入fix-protocol插件之后，在yml手动setConfig protocol MACOS，成功修复，本项目继续更新~
 

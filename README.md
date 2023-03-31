@@ -13,6 +13,12 @@
 
 ___
 
+### 具体使用方式：<br>
+
+- 发送 """#BotFive""" 获取主要功能帮助
+
+___
+
 ### 其中用到的Jar包来源有：
 
 1.   <https://github.com/heziblack/MonopolyForMirai>

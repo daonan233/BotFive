@@ -91,3 +91,8 @@ ___
 
 - 2023/3/29更新，加入fix-protocol插件之后，在yml手动setConfig protocol MACOS，成功修复，本项目继续更新~
 
+___
+
+- 2023/4/15更新，特此感谢我的朋友桃子为我提供了OpenAI api-key，使得bot的chatGPT问答能够顺利进行。
+- 当前库内的api-key已经过期。
+

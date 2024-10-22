@@ -5,20 +5,16 @@ doh: 'https://public.dns.iij.jp/dns-query'
 ipv6: false
 # API 超时时间, 如果出现 TimeoutException 时, 请尝试调大
 timeout: 30000
-# OPENAI_TOKEN https://beta.openai.com/account/api-keys
-token: 'sk-3b
-#D6SXb19mpwOOu8bBZ
-#jT3BlbkFJMuWE2XQN
-#VmAzGvl5F6K3'
-
+# OPENAI_TOKEN https://platform.openai.com/account/api-keys
+token: 'sk-J4WVx0m0leWDgIJif8ezJGXoIr0uSxvHMm2UPz6Qlx3vx7OY'
 # 发生错误时回复用户
 error_reply: true
 # 停止聊天时回复用户
 end_reply: false
 # 自定义模型触发前缀
-completion_prefix: '? '
+completion_prefix: '> '
 # 图片生成触发前缀
-image_prefix: !
+image_prefix: '? '
 # 聊天模型触发前缀
 chat_prefix: chat
 # 聊天模型触发于@
@@ -27,11 +23,21 @@ chat_by_at: false
 question_prefix: Q&A
 # 重载配置触发前缀
 reload_prefix: 'openai-reload'
+# 经济设置触发前缀
+economy_set_prefix: tokens
+# 绑定设置触发前缀
+bind_set_prefix: bind
 # 停止聊天或问答
 stop: stop
+# 保持前缀检查
+keep_prefix_check: false
+# 立刻开始聊天/问答
+at_once: false
 # 图片生成缓存文件夹
-image_folder: 'C:\Users\道难\Desktop\各种文件夹（常用）\mcl-2.1.2\data\xyz.cssxsh.mirai.plugin.mirai-openai-plugin\image'
+image_folder: 'C:\Users\道难\Desktop\各种文件夹（常用）\mcl-2.1\data\xyz.cssxsh.mirai.plugin.mirai-openai-plugin\image'
 # 聊天服务个数限制
 chat_limit: 10
 # 权限检查
 has_permission: false
+# 接入经济系统
+has_economy: true

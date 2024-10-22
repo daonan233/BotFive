@@ -1,0 +1,1626 @@
+2024-10-22 16:49:00 I/main: Starting mirai-console...
+2024-10-22 16:49:00 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-10-22 16:49:00 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-10-22 16:49:00 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-10-22 16:49:00 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-10-22 16:49:09 I/plugin: Successfully loaded plugin 5000choyen v1.0.0
+2024-10-22 16:49:09 I/plugin: Successfully loaded plugin Demo8 v0.1.0
+2024-10-22 16:49:09 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.9
+2024-10-22 16:49:09 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2024-10-22 16:49:09 I/plugin: Successfully loaded plugin 大富翁 v0.1.2
+2024-10-22 16:49:09 I/plugin: Successfully loaded plugin PetPet v5.2
+2024-10-22 16:49:09 I/plugin: Successfully loaded plugin pixiv插画 v1.7.6
+2024-10-22 16:49:09 I/plugin: Successfully loaded plugin 谁是卧底 v1.0
+2024-10-22 16:49:09 I/trpgbot: 协议版本检查更新...
+2024-10-22 16:49:09 I/trpgbot: 注册服务...
+2024-10-22 16:49:09 I/trpgbot: 服务配置文件: 
+ file:///H:/各种文件夹（常用）/mcl-2.1/network.json
+2024-10-22 16:49:09 W/trpgbot: 您正在使用远程签名服务，数据包将经过签名服务器，请勿添加不可信源
+2024-10-22 16:49:09 W/EncryptService.alert: Encrypt service was loaded: NetworkServiceFactory(config=file:///H:/各种文件夹（常用）/mcl-2.1/network.json)
+2024-10-22 16:49:09 W/EncryptService.alert: All outgoing message may be leaked by this service.
+2024-10-22 16:49:09 W/EncryptService.alert: Use this service if and only if you trusted this service and the service provider.
+2024-10-22 16:49:09 W/EncryptService.alert: Service details:
+2024-10-22 16:49:09 W/EncryptService.alert:   `- Jvm Class: class xyz.cssxsh.mirai.tool.NetworkServiceFactory
+2024-10-22 16:49:09 W/EncryptService.alert:   `- ClassLoader: JvmPluginClassLoader{trpgbot-1.13.1.mirai2.jar}
+2024-10-22 16:49:09 W/EncryptService.alert:   `- Source: file:/H:/各种文件夹（常用）/mcl-2.1/plugins/trpgbot-1.13.1.mirai2.jar
+2024-10-22 16:49:09 W/EncryptService.alert:   `- Protected Domain: ProtectionDomain  (file:/H:/各种文件夹（常用）/mcl-2.1/plugins/trpgbot-1.13.1.mirai2.jar <no signer certificates>)
+ JvmPluginClassLoader{trpgbot-1.13.1.mirai2.jar}
+ <no principals>
+ java.security.Permissions@e97f115 (
+ ("java.io.FilePermission" "H:\各种文件夹（常用）\mcl-2.1\plugins\trpgbot-1.13.1.mirai2.jar" "read")
+)
+
+
+2024-10-22 16:49:09 I/trpgbot: 正在检查可用的签名服务器
+2024-10-22 16:49:09 I/NetworkServiceFactory: trying Main Server https://qsign.trpgbot.com
+2024-10-22 16:49:25 W/NetworkServiceFactory: trpgbot Main by https://qsign.trpgbot.com 暂不可用 Connection reset
+2024-10-22 16:49:25 I/NetworkServiceFactory: trying CDN http://sbtx.f3.ttvt.cc
+2024-10-22 16:49:25 W/NetworkServiceFactory: trpgbot CDN by http://sbtx.f3.ttvt.cc 暂不可用，下次重载配置前将不连接该 CDN. Server returned HTTP response code: 403 for URL: http://sbtx.f3.ttvt.cc
+2024-10-22 16:49:25 I/NetworkServiceFactory: trying CDN https://qsign.chahuyun.cn
+2024-10-22 16:50:32 W/NetworkServiceFactory: 协议自动升级失败
+java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:378)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at kotlin.io.TextStreamsKt.readBytes(ReadWrite.kt:149)
+	at trpgbot-1.13.1.mirai2.jar//xyz.cssxsh.mirai.tool.NetworkServiceFactory.fetchVersionInfoFromGuide(NetworkServiceFactory.kt:196)
+	at trpgbot-1.13.1.mirai2.jar//xyz.cssxsh.mirai.tool.NetworkServiceFactory.checkProtocolUpdate$trpgbot(NetworkServiceFactory.kt:177)
+	at trpgbot-1.13.1.mirai2.jar//xyz.cssxsh.mirai.tool.FixProtocolVersionPlugin.onLoad(FixProtocolVersionPlugin.kt:48)
+	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnLoad$mirai_console(JvmPluginInternal.kt:388)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.load(BuiltInJvmPluginLoaderImpl.kt:371)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.load(BuiltInJvmPluginLoaderImpl.kt:40)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.load(JvmPluginLoader.kt)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.load(JvmPluginLoader.kt:54)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.loadPluginNoEnable(PluginManagerImpl.kt:100)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.loadAllPluginsUsingBuiltInLoaders$mirai_console(PluginManagerImpl.kt:164)
+	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:303)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+	at org.itxtech.mcl.Loader.start(Loader.java:196)
+	at org.itxtech.mcl.Loader.main(Loader.java:84)
+
+2024-10-22 16:50:32 I/plugin: Successfully loaded plugin trpgbot v1.13.1
+2024-10-22 16:50:32 I/plugin: Successfully loaded plugin Demo v0.1.0
+2024-10-22 16:50:32 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2024-10-22 16:50:59 I/plugin: Successfully loaded plugin mirai-openai-plugin v1.3.4
+2024-10-22 16:50:59 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-10-22 16:50:59 I/5000choyen: 5000choyen 插件已成功加载
+2024-10-22 16:50:59 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 16:50:59 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2024-10-22 16:50:59 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2024-10-22 16:50:59 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:244)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:393)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:40)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:54)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:193)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:360)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+2024-10-22 16:50:59 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+2024-10-22 16:50:59 W/stderr: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2024-10-22 16:50:59 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2024-10-22 16:50:59 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2024-10-22 16:50:59 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 16:50:59 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2024-10-22 16:50:59 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2024-10-22 16:50:59 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2024-10-22 16:50:59 W/stderr: 	... 25 more
+2024-10-22 16:50:59 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 16:50:59 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2024-10-22 16:50:59 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)
+2024-10-22 16:50:59 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+2024-10-22 16:50:59 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2024-10-22 16:50:59 W/stderr: 	... 27 more
+2024-10-22 16:50:59 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2024-10-22 16:50:59 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2024-10-22 16:50:59 I/点歌插件: 插件加载完毕!
+2024-10-22 16:50:59 I/大富翁: 读取配置
+2024-10-22 16:50:59 I/大富翁: bot主人：-1
+2024-10-22 16:50:59 I/大富翁: 工作群聊：[]
+2024-10-22 16:50:59 I/大富翁: 加载地图ing
+2024-10-22 16:50:59 I/大富翁: 地图列表：
+2024-10-22 16:50:59 I/大富翁: 1:默认地图
+2024-10-22 16:50:59 I/大富翁: 初始化完成
+2024-10-22 16:50:59 I/stdout: Petpet GifMakerThreadPoolSize: 13
+2024-10-22 16:50:59 I/stdout: ヾ(≧▽≦*)o Petpet 初始化成功，使用 pet 以获取keyList!
+2024-10-22 16:50:59 I/stdout: 无法读取 H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\data.json/data.json: 
+2024-10-22 16:50:59 I/stdout: 
+2024-10-22 16:50:59 I/stdout: java.lang.RuntimeException: java.io.FileNotFoundException: H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\data.json\data.json (系统找不到指定的路径。)
+2024-10-22 16:50:59 I/stdout: Petpet 加载完毕 (共 0 素材，随机表列包含 0 素材，已禁用 0)
+2024-10-22 16:50:59 I/PetPet: 
+
+    ██████╗ ███████╗████████╗██████╗ ███████╗████████╗
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+    ██████╔╝█████╗     ██║   ██████╔╝█████╗     ██║   
+    ██╔═══╝ ██╔══╝     ██║   ██╔═══╝ ██╔══╝     ██║   
+    ██║     ███████╗   ██║   ██║     ███████╗   ██║   
+    ╚═╝     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝   ╚═╝     v5.2
+
+2024-10-22 16:51:00 I/谁是卧底: spy准备就绪！
+2024-10-22 16:51:00 I/trpgbot: 当前各登录协议版本日期: 
+ANDROID_PHONE  8.9.58.11170  2023-05-19T11:35+08:00
+ANDROID_PAD    8.9.58.11170  2023-05-19T11:35+08:00
+ANDROID_WATCH  2.0.8         2019-06-03T20:25:31+08:00
+IPAD           8.9.50.611    2023-02-16T15:10:14+08:00
+MACOS          6.8.2.21241   2022-03-14T11:11:35+08:00
+
+请使用 ANDROID_PAD 协议登录
+
+2024-10-22 16:51:00 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2024-10-22 16:51:00 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2024-10-22 16:51:00 I/mirai-openai-plugin: 权限检查未开启
+2024-10-22 16:51:00 I/main: 13 plugin(s) enabled.
+2024-10-22 16:51:00 I/main: Auto-login 3588760845, protocol: MACOS, heartbeatStrategy: STAT_HB
+2024-10-22 16:51:00 W/Bot.3588760845: NetworkServiceFactory(config=file:///H:/各种文件夹（常用）/mcl-2.1/network.json) is not yet supported EncryptService with bot Bot(3588760845)
+java.lang.UnsupportedOperationException: MACOS
+	at trpgbot-1.13.1.mirai2.jar//xyz.cssxsh.mirai.tool.NetworkServiceFactory.createForBot(NetworkServiceFactory.kt:140)
+	at net.mamoe.mirai.internal.network.components.EncryptServiceHolderImpl.<init>(EncryptServiceHolder.kt:49)
+	at net.mamoe.mirai.internal.QQAndroidBot.createBotLevelComponents(QQAndroidBot.kt:288)
+	at net.mamoe.mirai.internal.QQAndroidBot$defaultBotLevelComponents$2.invoke(QQAndroidBot.kt:192)
+	at net.mamoe.mirai.internal.QQAndroidBot$defaultBotLevelComponents$2.invoke(QQAndroidBot.kt:191)
+	at net.mamoe.mirai.utils.LateinitMutableProperty.getValue(LateinitMutableProperty.kt:47)
+	at net.mamoe.mirai.internal.QQAndroidBot.getDefaultBotLevelComponents(QQAndroidBot.kt:191)
+	at net.mamoe.mirai.internal.QQAndroidBot.createNetworkLevelComponents(QQAndroidBot.kt:300)
+	at net.mamoe.mirai.internal.QQAndroidBot$createNetworkHandler$1.invoke(QQAndroidBot.kt:312)
+	at net.mamoe.mirai.internal.QQAndroidBot$createNetworkHandler$1.invoke(QQAndroidBot.kt:305)
+	at net.mamoe.mirai.internal.network.handler.selector.AbstractKeepAliveNetworkHandlerSelectorKt$KeepAliveNetworkHandlerSelector$1.createInstance(AbstractKeepAliveNetworkHandlerSelector.kt:277)
+	at net.mamoe.mirai.internal.network.handler.selector.AbstractKeepAliveNetworkHandlerSelector.refreshInstance(AbstractKeepAliveNetworkHandlerSelector.kt:249)
+	at net.mamoe.mirai.internal.network.handler.selector.AbstractKeepAliveNetworkHandlerSelector.getCurrentInstanceOrCreate(AbstractKeepAliveNetworkHandlerSelector.kt:57)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.getContext(SelectorNetworkHandler.kt:51)
+	at net.mamoe.mirai.internal.AbstractBot$network$2.invoke(AbstractBot.kt:139)
+	at net.mamoe.mirai.internal.AbstractBot$network$2.invoke(AbstractBot.kt:137)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at net.mamoe.mirai.internal.AbstractBot.getNetwork(AbstractBot.kt:137)
+	at net.mamoe.mirai.internal.AbstractBot.login(AbstractBot.kt:147)
+	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge$doStart$12$1.invokeSuspend(MiraiConsoleImplementationBridge.kt:431)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:374)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+	at org.itxtech.mcl.Loader.start(Loader.java:196)
+	at org.itxtech.mcl.Loader.main(Loader.java:84)
+
+2024-10-22 16:51:00 I/stdout: PetpetPlugin可更新到最新版本: 6.2 (当前版本 5.2)  要养成经常更新的好习惯哦 (*/ω＼*)
+2024-10-22 16:51:00 I/stdout: 发现新增PetData
+2024-10-22 16:51:00 I/stdout: 开始更新PetData
+2024-10-22 16:51:01 E/main: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3588760845), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3588760845), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)]
+
+2024-10-22 16:51:01 I/Bot.3588760845: Bot cancelled: Bot closed
+2024-10-22 16:51:01 V/Bot.3588760845: Event: AutoLoginEvent.Failure(bot=3588760845, protocol=MACOS, cause=net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.)
+2024-10-22 16:51:01 I/main: mirai-console started successfully.
+2024-10-22 16:51:02 I/stdout: PetData/down_symmetry下载成功 (length:0)
+2024-10-22 16:51:23 I/stdout: 无法从远程仓库下载PetData: https://raw.githubusercontent.com/Dituon/petpet/main/data/xmmt.dituon.petpet/up_symmetry/data.json
+2024-10-22 16:51:32 I/stdout: PetFont/Handel-Gothic.ttf下载成功
+2024-10-22 16:52:24 I/main: Starting mirai-console...
+2024-10-22 16:52:24 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-10-22 16:52:24 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-10-22 16:52:24 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-10-22 16:52:24 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-10-22 16:52:25 I/plugin: Successfully loaded plugin 5000choyen v1.0.0
+2024-10-22 16:52:25 I/plugin: Successfully loaded plugin Demo8 v0.1.0
+2024-10-22 16:52:25 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.9
+2024-10-22 16:52:25 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2024-10-22 16:52:25 I/plugin: Successfully loaded plugin 大富翁 v0.1.2
+2024-10-22 16:52:25 I/plugin: Successfully loaded plugin PetPet v5.2
+2024-10-22 16:52:25 I/plugin: Successfully loaded plugin pixiv插画 v1.7.6
+2024-10-22 16:52:25 I/plugin: Successfully loaded plugin 谁是卧底 v1.0
+2024-10-22 16:52:25 I/trpgbot: 协议版本检查更新...
+2024-10-22 16:52:25 I/trpgbot: 注册服务...
+2024-10-22 16:52:25 I/trpgbot: 服务配置文件: 
+ file:///H:/各种文件夹（常用）/mcl-2.1/network.json
+2024-10-22 16:52:25 W/trpgbot: 您正在使用远程签名服务，数据包将经过签名服务器，请勿添加不可信源
+2024-10-22 16:52:25 W/EncryptService.alert: Encrypt service was loaded: NetworkServiceFactory(config=file:///H:/各种文件夹（常用）/mcl-2.1/network.json)
+2024-10-22 16:52:25 W/EncryptService.alert: All outgoing message may be leaked by this service.
+2024-10-22 16:52:25 W/EncryptService.alert: Use this service if and only if you trusted this service and the service provider.
+2024-10-22 16:52:25 W/EncryptService.alert: Service details:
+2024-10-22 16:52:25 W/EncryptService.alert:   `- Jvm Class: class xyz.cssxsh.mirai.tool.NetworkServiceFactory
+2024-10-22 16:52:25 W/EncryptService.alert:   `- ClassLoader: JvmPluginClassLoader{trpgbot-1.13.1.mirai2.jar}
+2024-10-22 16:52:25 W/EncryptService.alert:   `- Source: file:/H:/各种文件夹（常用）/mcl-2.1/plugins/trpgbot-1.13.1.mirai2.jar
+2024-10-22 16:52:25 W/EncryptService.alert:   `- Protected Domain: ProtectionDomain  (file:/H:/各种文件夹（常用）/mcl-2.1/plugins/trpgbot-1.13.1.mirai2.jar <no signer certificates>)
+ JvmPluginClassLoader{trpgbot-1.13.1.mirai2.jar}
+ <no principals>
+ java.security.Permissions@5dfd31f4 (
+ ("java.io.FilePermission" "H:\各种文件夹（常用）\mcl-2.1\plugins\trpgbot-1.13.1.mirai2.jar" "read")
+)
+
+
+2024-10-22 16:52:25 I/trpgbot: 正在检查可用的签名服务器
+2024-10-22 16:52:25 I/NetworkServiceFactory: trying Main Server https://qsign.trpgbot.com
+2024-10-22 16:52:46 W/NetworkServiceFactory: trpgbot Main by https://qsign.trpgbot.com 暂不可用 Connection timed out: connect
+2024-10-22 16:52:46 I/NetworkServiceFactory: trying CDN http://sbtx.f3.ttvt.cc
+2024-10-22 16:52:46 W/NetworkServiceFactory: trpgbot CDN by http://sbtx.f3.ttvt.cc 暂不可用，下次重载配置前将不连接该 CDN. Server returned HTTP response code: 403 for URL: http://sbtx.f3.ttvt.cc
+2024-10-22 16:52:46 I/NetworkServiceFactory: trying CDN https://qsign.chahuyun.cn
+2024-10-22 16:52:48 I/NetworkServiceFactory: 已将 ANDROID_PAD 从网络配置自动升级至 9.0.56.16830，并保存配置到本地
+2024-10-22 16:52:48 I/plugin: Successfully loaded plugin trpgbot v1.13.1
+2024-10-22 16:52:48 I/plugin: Successfully loaded plugin Demo v0.1.0
+2024-10-22 16:52:48 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2024-10-22 16:52:48 I/plugin: Successfully loaded plugin mirai-openai-plugin v1.3.4
+2024-10-22 16:52:48 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-10-22 16:52:48 I/5000choyen: 5000choyen 插件已成功加载
+2024-10-22 16:52:48 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 16:52:48 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2024-10-22 16:52:48 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2024-10-22 16:52:48 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:244)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:393)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:40)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:54)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:193)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:360)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+2024-10-22 16:52:48 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+2024-10-22 16:52:48 W/stderr: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2024-10-22 16:52:48 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2024-10-22 16:52:48 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2024-10-22 16:52:48 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 16:52:48 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2024-10-22 16:52:48 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2024-10-22 16:52:48 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2024-10-22 16:52:48 W/stderr: 	... 25 more
+2024-10-22 16:52:48 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 16:52:48 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2024-10-22 16:52:48 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)
+2024-10-22 16:52:48 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+2024-10-22 16:52:48 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2024-10-22 16:52:48 W/stderr: 	... 27 more
+2024-10-22 16:52:48 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2024-10-22 16:52:48 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2024-10-22 16:52:48 I/点歌插件: 插件加载完毕!
+2024-10-22 16:52:48 I/大富翁: 读取配置
+2024-10-22 16:52:48 I/大富翁: bot主人：-1
+2024-10-22 16:52:48 I/大富翁: 工作群聊：[]
+2024-10-22 16:52:48 I/大富翁: 加载地图ing
+2024-10-22 16:52:48 I/大富翁: 地图列表：
+2024-10-22 16:52:48 I/大富翁: 1:默认地图
+2024-10-22 16:52:48 I/大富翁: 初始化完成
+2024-10-22 16:52:48 I/stdout: Petpet GifMakerThreadPoolSize: 13
+2024-10-22 16:52:48 I/stdout: ヾ(≧▽≦*)o Petpet 初始化成功，使用 pet 以获取keyList!
+2024-10-22 16:52:48 I/stdout: 无法读取 H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\data.json/data.json: 
+2024-10-22 16:52:48 I/stdout: 
+2024-10-22 16:52:48 I/stdout: java.lang.RuntimeException: java.io.FileNotFoundException: H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\data.json\data.json (系统找不到指定的路径。)
+2024-10-22 16:52:48 I/stdout: 无法读取 H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\Handel-Gothic.ttf/data.json: 
+2024-10-22 16:52:48 I/stdout: 
+2024-10-22 16:52:48 I/stdout: java.lang.RuntimeException: java.io.FileNotFoundException: H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\Handel-Gothic.ttf\data.json (系统找不到指定的路径。)
+2024-10-22 16:52:48 I/stdout: 无法读取 H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\MiSans-Bold.ttf/data.json: 
+2024-10-22 16:52:48 I/stdout: 
+2024-10-22 16:52:48 I/stdout: java.lang.RuntimeException: java.io.FileNotFoundException: H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\MiSans-Bold.ttf\data.json (系统找不到指定的路径。)
+2024-10-22 16:52:48 I/stdout: Petpet 加载完毕 (共 0 素材，随机表列包含 0 素材，已禁用 0)
+2024-10-22 16:52:48 I/PetPet: 
+
+    ██████╗ ███████╗████████╗██████╗ ███████╗████████╗
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+    ██████╔╝█████╗     ██║   ██████╔╝█████╗     ██║   
+    ██╔═══╝ ██╔══╝     ██║   ██╔═══╝ ██╔══╝     ██║   
+    ██║     ███████╗   ██║   ██║     ███████╗   ██║   
+    ╚═╝     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝   ╚═╝     v5.2
+
+2024-10-22 16:52:48 I/谁是卧底: spy准备就绪！
+2024-10-22 16:52:48 I/trpgbot: 当前各登录协议版本日期: 
+ANDROID_PHONE  8.9.58.11170  2023-05-19T11:35+08:00
+ANDROID_PAD    9.0.56.16830  2024-04-18T15:12:37+08:00
+ANDROID_WATCH  2.0.8         2019-06-03T20:25:31+08:00
+IPAD           8.9.50.611    2023-02-16T15:10:14+08:00
+MACOS          6.8.2.21241   2022-03-14T11:11:35+08:00
+
+请使用 ANDROID_PAD 协议登录
+
+2024-10-22 16:52:48 I/stdout: PetpetPlugin可更新到最新版本: 6.2 (当前版本 5.2)  要养成经常更新的好习惯哦 (*/ω＼*)
+2024-10-22 16:52:48 I/stdout: 发现新增PetData
+2024-10-22 16:52:48 I/stdout: 开始更新PetData
+2024-10-22 16:52:48 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2024-10-22 16:52:48 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2024-10-22 16:52:49 I/mirai-openai-plugin: 权限检查未开启
+2024-10-22 16:52:49 I/main: 13 plugin(s) enabled.
+2024-10-22 16:52:49 I/main: Auto-login 3588760845, protocol: ANDROID_PAD, heartbeatStrategy: STAT_HB
+2024-10-22 16:52:49 I/NetworkServiceFactory: 创建 EncryptService(id=3588760845), protocol=ANDROID_PAD(9.0.56) from file:///H:/各种文件夹（常用）/mcl-2.1/network.json
+2024-10-22 16:52:49 I/NetworkServiceFactory: trying Main Server https://qsign.trpgbot.com
+2024-10-22 16:52:49 I/stdout: PetData/down_symmetry下载成功 (length:0)
+2024-10-22 16:53:08 I/stdout: PetData/up_symmetry下载成功 (length:0)
+2024-10-22 16:53:10 W/NetworkServiceFactory: trpgbot Main by https://qsign.trpgbot.com 暂不可用 Connection timed out: connect
+2024-10-22 16:53:10 I/NetworkServiceFactory: trying CDN https://qsign.chahuyun.cn
+2024-10-22 16:53:10 I/NetworkServiceFactory: trpgbot from https://qsign.chahuyun.cn about 
+{"msg":"IAA 云天明 章北海 赵怡然### Astral Protection Core: 由于系统近期检测到这段时间有来自未知流量的非法攻击，为了保护其他用户的正常使用，较大资源消耗的IP将被限制，如需需要添加IP白名单请联系签名维护者 https://mirai.mamoe.net/topic/2673/qsign-9-0-55-9-0-95-%E5%85%AC%E7%9B%8A-api%E5%8F%91%E5%B8%83","code":0,"data":{"protocol":{"code":"6372","package_name":"com.tencent.mobileqq","qua":"V1_AND_SQ_9.0.56_6372_YYB_D","version":"9.0.56"},"stat":{"Speed":{"SIGN-OPM5":3106,"SIGN-OPS":9,"SIGN-OPM":582,"SIGN-OPM10":6118},"Call":{"Energy":33522,"Sign":516010},"Errors":{"Attack":2,"Common":11},"Performance":{"Energy":54,"Sign":87}},"instances":["0c1b","0c1b-3","0c1b-2","0c1f"],"version":"1.2.4","support":["9.0.65","9.0.55","9.0.85","9.0.56","9.0.81","9.0.60","9.0.95","9.0.90","9.1.0"]}}
+2024-10-22 16:53:10 I/UnidbgFetchQsign: Bot(3588760845) initialize by https://qsign.chahuyun.cn
+2024-10-22 16:53:11 I/UnidbgFetchQsign: Bot(3588760845) register, 注册成功。
+2024-10-22 16:53:11 I/UnidbgFetchQsign: Bot(3588760845) initialize complete
+2024-10-22 16:53:11 I/stdout: PetData/fencing下载成功 (length:0)
+2024-10-22 16:53:19 I/stdout: PetData/play下载成功 (length:0)
+2024-10-22 16:53:42 I/Bot.3588760845: Login successful
+2024-10-22 16:53:42 I/Bot.3588760845: Saved account secrets to local cache for fast login.
+2024-10-22 16:53:42 I/Bot.3588760845: Login successful.
+2024-10-22 16:53:42 V/Bot.3588760845: Event: OtherClientOfflineEvent(client=OtherClient(bot=3588760845,deviceName=Huawei MatePad55（有良心的中国制造版）,platform=IOS))
+2024-10-22 16:53:44 V/Bot.3588760845: Event: BotOnlineEvent(bot=Bot(3588760845))
+2024-10-22 16:53:44 I/Bot.3588760845: Bot login successful.
+2024-10-22 16:53:44 V/Bot.3588760845: Event: AutoLoginEvent.Success(bot=3588760845, protocol=ANDROID_PAD, heartbeatStrategy=STAT_HB)
+2024-10-22 16:53:44 I/main: mirai-console started successfully.
+2024-10-22 16:53:49 V/Bot.3588760845: [沙邮工具人(795836745)] 记得给电动车充电(2460783254) -> 三块钱一小盒一上午都不饿
+2024-10-22 16:53:56 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 在朋友圈里发live图的确实傻狗
+2024-10-22 16:54:01 V/Bot.3588760845: Event: MemberJoinEvent.Invite(member=2894566646, invitor=3588760845)
+2024-10-22 16:54:04 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 加达里海军自适应制导炸弹(3615237213) -> 我儿子以前是同性恋后面喝西药调理好了！药方列在下面！有需要的同性恋病友们可以拿走！无论男同女同都能治！让大家不再为孩子的性取向而烦恼！中国人不学西方政治正确那套！同性恋是病！有病就得治！帮我列在下面了！各位爸爸妈妈自己拿走！
+丙酸睾酮隔天4毫升，丙酸区它雄酮隔天5毫升，醋酸群波龙隔天4毫升，美替诺龙隔天4毫升，司腾博龙隔天3毫升，曲托龙隔天3毫升，生长激素每天早4IU晚41U针剂，麻碱一瓶，口服特立补十粒，口服美替诺龙十粒，氧雄龙20粒，康复龙十粒，康力龙十粒，M1T十粒，克伦五粒，T3四粒，睡前美睾酮10粒，康力龙十粒，口服美替10粒，抗雌阿诺曲错每天一粒，卡麦角林一周两粒，周一一粒周日一粒。
+2024-10-22 16:54:06 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 纯纯的装逼狗
+2024-10-22 16:54:17 V/Bot.3588760845: [沉淀(646532226)] 道阻且长，行则将至(2435219469) -> daonan
+2024-10-22 16:54:17 I/stdout: 无法从远程仓库下载PetData: https://raw.githubusercontent.com/Dituon/petpet/main/data/xmmt.dituon.petpet/cum/data.json
+2024-10-22 16:54:19 V/Bot.3588760845: [沙邮工具人(795836745)] 放假(3646213776) -> 我以为是“禁得住饿”的意思
+2024-10-22 16:54:20 V/Bot.3588760845: [沉淀(646532226)] 道阻且长，行则将至(2435219469) -> 归位
+2024-10-22 16:54:28 V/Bot.3588760845: Event: MemberCardChangeEvent(origin=道难, new=, member=NormalMember(2894566646))
+2024-10-22 16:54:28 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 我试试我的bot
+2024-10-22 16:54:31 V/Bot.3588760845: [沙邮工具人(795836745)] 我是摆子(1780928237) -> 经得住不是这个吗
+2024-10-22 16:54:39 I/stdout: 无法从远程仓库下载PetFont: https://raw.githubusercontent.com/Dituon/petpet/main/data/xmmt.dituon.petpet/fonts/Handel-Gothic.ttf
+2024-10-22 16:54:49 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 怎么用来遮
+2024-10-22 16:54:57 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> [mirai:quote:[mirai:source:ids=[130396], internalIds=[1122179379], from 3203989427 to 340768320 at 1729587039], content=<not yet initialized>]盲猜外五县
+2024-10-22 16:55:01 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 外五县名媛
+2024-10-22 16:55:07 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 解放北路290号(3203989427) -> [mirai:quote:[mirai:source:ids=[130404], internalIds=[845485381], from 3536342890 to 340768320 at 1729587298], content=<not yet initialized>][mirai:at:3536342890] 抚顺市内的
+2024-10-22 16:55:12 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 加达里海军自适应制导炸弹(3615237213) -> [辣眼睛]
+2024-10-22 16:55:17 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 呃呃
+2024-10-22 16:55:18 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 解放北路290号(3203989427) -> 但是也按照外五县处理
+2024-10-22 16:55:18 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 啥掉
+2024-10-22 16:55:24 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 抚顺还不如吉林
+2024-10-22 16:55:31 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 不如吉林的城市一律视为外五县
+2024-10-22 16:55:32 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> #BotFive
+2024-10-22 16:55:33 V/Bot.3588760845: Group(646532226) <- Hi，我是小55bot！
+我现在有以下功能：
+1.点歌 示例：#音乐 xx
+2.发送图片，发送pet来获取帮助 示例：pet @daonan
+3.大富翁：发送#大富翁来获取帮助 示例：！开始大富翁
+4.生成某风格图片 示例：/5k KFC(换行)vivo50
+5.chatGPT问答 发送#AiFive来获取帮助
+本项目地址：https://github.com/daonan233/BotFive
+
+2024-10-22 16:55:37 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 解放北路290号(3203989427) -> 因为他GDP没有哇袄房腚睾
+2024-10-22 16:56:00 V/Bot.3588760845: [沙邮工具人(795836745)] 文采斐然(1283365985) -> [mirai:quote:[mirai:source:ids=[567751], internalIds=[1641550131], from 3646213776 to 795836745 at 1729586952], content=<not yet initialized>][mirai:at:3646213776] 我觉得挺好吃的）
+2024-10-22 16:56:04 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> #音乐 春日影
+2024-10-22 16:56:05 V/Bot.3588760845: Group(646532226) <- MusicShare(kind=QQMusic, title=春日影, summary=CRYCHIC, jumpUrl=https://i.y.qq.com/v8/playsong.html?_wv=1&songid=500952043&source=qqshare&ADTAG=qqshare, pictureUrl=http://y.gtimg.cn/music/photo_new/T002R300x300M000001TZiwN3R1svY.jpg, musicUrl=http://ws.stream.qqmusic.qq.com/C400002TIu374QNFQm.m4a?guid=358840384&vkey=665731F3DF505098AD46577050A42D7F6C420793D61680A14E82A088F8006DFE49567960094765FCD1E27389D4A453F9A1CE0D542E410D66&uin=&fromtag=120032&src=C400002D7suZ1Mn6a0.m4a, brief=[分享]春日影)
+2024-10-22 16:56:15 V/Bot.3588760845: [沙邮工具人(795836745)] 放假(3646213776) -> [mirai:quote:[mirai:source:ids=[567780], internalIds=[1012322069], from 1780928237 to 795836745 at 1729587272], content=<not yet initialized>][mirai:at:1780928237] 百度了说都行这俩
+2024-10-22 16:56:29 V/Bot.3588760845: [沉淀(646532226)] 道阻且长，行则将至(2435219469) -> 为什么要（）（）（）（）（）
+2024-10-22 16:56:33 V/Bot.3588760845: [沉淀(646532226)] 道阻且长，行则将至(2435219469) -> 后面的忘了
+2024-10-22 16:56:42 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> pet [mirai:at:2435219469] 
+2024-10-22 16:56:42 W/Bot.3588760845: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 3588760845.EventDispatcher'
+java.lang.IllegalArgumentException: bound must be positive
+	at java.base/java.util.Random.nextInt(Random.java:321)
+	at petpet-5.3.jar//moe.dituon.petpet.mirai.MiraiPetpet.responseMessage(MiraiPetpet.java:259)
+	at petpet-5.3.jar//moe.dituon.petpet.mirai.MiraiPetpet.onGroupMessage(MiraiPetpet.java:140)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:605)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:605)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2024-10-22 16:56:45 V/Bot.3588760845: [沉淀(646532226)] 道阻且长，行则将至(2435219469) -> 总之惊世智慧
+2024-10-22 16:56:52 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 欸
+2024-10-22 16:56:54 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 怎么寄了
+2024-10-22 16:56:56 V/Bot.3588760845: [沉淀(646532226)] 汉兜波特(3944027723) -> [mirai:quote:[mirai:source:ids=[422726], internalIds=[44534628], from 2894566646 to 646532226 at 1729587415], content=<not yet initialized>][mirai:image:{C282BE3E-4B83-18D8-4536-9427587F7CFE}.png, width=1497, height=1565, size=244196, type=PNG, isEmoji=false][不支持的消息#748623507]
+2024-10-22 16:57:06 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> pet
+2024-10-22 16:57:07 V/Bot.3588760845: Group(646532226) <- ForwardMessage(preview=[petpet!: Petpet KeyList: 
+], title=群聊的聊天记录, brief=[聊天记录], source=聊天记录, summary=查看1条转发消息, nodeList=[Node(senderId=3588760845, time=1729587426, senderName=petpet!, messageChain=Petpet KeyList: 
+)])
+2024-10-22 16:57:10 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 日本人挖万人坑的时候怎么没把他埋进去
+2024-10-22 16:57:14 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> [不支持的消息#107196353]
+2024-10-22 16:57:18 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> 还是心善了
+2024-10-22 16:57:18 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 坏了 之前给清空了
+2024-10-22 16:57:22 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 😭
+2024-10-22 16:57:27 I/stdout: PetFont/MiSans-Bold.ttf下载成功
+2024-10-22 16:57:29 V/Bot.3588760845: [搞怪君的Raven's小酒馆(790180599)] 木橙风(542162262) -> [不支持的消息#647799244]
+2024-10-22 16:57:32 I/stdout: PetFont/Aller-Bold.ttf下载成功
+2024-10-22 16:57:32 I/stdout: PetData更新完毕, 正在重新加载
+2024-10-22 16:57:32 I/stdout: 无法读取 H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\Aller-Bold.ttf/data.json: 
+2024-10-22 16:57:32 I/stdout: 
+2024-10-22 16:57:32 I/stdout: java.lang.RuntimeException: java.io.FileNotFoundException: H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\Aller-Bold.ttf\data.json (系统找不到指定的路径。)
+2024-10-22 16:57:32 I/stdout: 无法读取 H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\data.json/data.json: 
+2024-10-22 16:57:32 I/stdout: 
+2024-10-22 16:57:32 I/stdout: java.lang.RuntimeException: java.io.FileNotFoundException: H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\data.json\data.json (系统找不到指定的路径。)
+2024-10-22 16:57:32 I/stdout: 无法读取 H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\Handel-Gothic.ttf/data.json: 
+2024-10-22 16:57:32 I/stdout: 
+2024-10-22 16:57:32 I/stdout: java.lang.RuntimeException: java.io.FileNotFoundException: H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\Handel-Gothic.ttf\data.json (系统找不到指定的路径。)
+2024-10-22 16:57:32 I/stdout: 无法读取 H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\MiSans-Bold.ttf/data.json: 
+2024-10-22 16:57:32 I/stdout: 
+2024-10-22 16:57:32 I/stdout: java.lang.RuntimeException: java.io.FileNotFoundException: H:\各种文件夹（常用）\mcl-2.1\data\xmmt.dituon.petpet\MiSans-Bold.ttf\data.json (系统找不到指定的路径。)
+2024-10-22 16:57:32 I/stdout: Petpet 加载完毕 (共 0 素材，随机表列包含 0 素材，已禁用 0)
+2024-10-22 16:57:33 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 热插拔一下
+2024-10-22 16:57:33 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 解放北路290号(3203989427) -> [mirai:quote:[mirai:source:ids=[130414], internalIds=[1556661338], from 3536342890 to 340768320 at 1729587431], content=<not yet initialized>][mirai:at:3536342890] 他在太君旁边看着呢
+2024-10-22 16:57:45 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 解放北路290号(3203989427) -> [不支持的消息#-1849944287]
+2024-10-22 16:57:46 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 祝丰街 521号(3536342890) -> [不支持的消息#1559925468]
+2024-10-22 16:57:46 V/Bot.3588760845: [潍坊市大众探岳380车友攀比群(340768320)] 网友丁顺真(2513798335) -> 祖上是刘璐
+2024-10-22 16:58:00 V/Bot.3588760845: Event: BotOfflineEvent.Active(bot=Bot(3588760845), cause=null, reconnect=false)
+2024-10-22 16:58:00 I/Bot.3588760845: Bot is closed manually
+2024-10-22 16:58:00 I/UnidbgFetchQsign: Bot(3588760845) destroy, IAA 云天明 章北海 赵怡然### Astral Protection Core: 由于系统近期检测到这段时间有来自未知流量的非法攻击，为了保护其他用户的正常使用，较大资源消耗的IP将被限制，如需需要添加IP白名单请联系签名维护者 https://mirai.mamoe.net/topic/2673/qsign-9-0-55-9-0-95-%E5%85%AC%E7%9B%8A-api%E5%8F%91%E5%B8%83
+2024-10-22 16:58:00 I/Bot.3588760845: Bot cancelled: Job was cancelled
+2024-10-22 17:12:53 I/main: Starting mirai-console...
+2024-10-22 17:12:53 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-10-22 17:12:53 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-10-22 17:12:53 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-10-22 17:12:53 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-10-22 17:12:57 I/plugin: Successfully loaded plugin 5000choyen v1.0.0
+2024-10-22 17:12:57 I/plugin: Successfully loaded plugin Demo8 v0.1.0
+2024-10-22 17:12:58 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.9
+2024-10-22 17:12:58 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2024-10-22 17:12:58 I/plugin: Successfully loaded plugin 大富翁 v0.1.2
+2024-10-22 17:12:58 I/plugin: Successfully loaded plugin PetPet v6.2
+2024-10-22 17:12:58 I/plugin: Successfully loaded plugin pixiv插画 v1.7.6
+2024-10-22 17:12:58 I/plugin: Successfully loaded plugin 谁是卧底 v1.0
+2024-10-22 17:12:58 I/trpgbot: 协议版本检查更新...
+2024-10-22 17:12:58 I/trpgbot: 注册服务...
+2024-10-22 17:12:58 I/trpgbot: 服务配置文件: 
+ file:///H:/各种文件夹（常用）/mcl-2.1/network.json
+2024-10-22 17:12:58 W/trpgbot: 您正在使用远程签名服务，数据包将经过签名服务器，请勿添加不可信源
+2024-10-22 17:12:58 W/EncryptService.alert: Encrypt service was loaded: NetworkServiceFactory(config=file:///H:/各种文件夹（常用）/mcl-2.1/network.json)
+2024-10-22 17:12:58 W/EncryptService.alert: All outgoing message may be leaked by this service.
+2024-10-22 17:12:58 W/EncryptService.alert: Use this service if and only if you trusted this service and the service provider.
+2024-10-22 17:12:58 W/EncryptService.alert: Service details:
+2024-10-22 17:12:58 W/EncryptService.alert:   `- Jvm Class: class xyz.cssxsh.mirai.tool.NetworkServiceFactory
+2024-10-22 17:12:58 W/EncryptService.alert:   `- ClassLoader: JvmPluginClassLoader{trpgbot-1.13.1.mirai2.jar}
+2024-10-22 17:12:58 W/EncryptService.alert:   `- Source: file:/H:/各种文件夹（常用）/mcl-2.1/plugins/trpgbot-1.13.1.mirai2.jar
+2024-10-22 17:12:58 W/EncryptService.alert:   `- Protected Domain: ProtectionDomain  (file:/H:/各种文件夹（常用）/mcl-2.1/plugins/trpgbot-1.13.1.mirai2.jar <no signer certificates>)
+ JvmPluginClassLoader{trpgbot-1.13.1.mirai2.jar}
+ <no principals>
+ java.security.Permissions@2a0963be (
+ ("java.io.FilePermission" "H:\各种文件夹（常用）\mcl-2.1\plugins\trpgbot-1.13.1.mirai2.jar" "read")
+)
+
+
+2024-10-22 17:12:58 I/trpgbot: 正在检查可用的签名服务器
+2024-10-22 17:12:58 I/NetworkServiceFactory: trying Main Server https://qsign.trpgbot.com
+2024-10-22 17:13:00 W/NetworkServiceFactory: trpgbot Main by https://qsign.trpgbot.com 暂不可用 Connection reset
+2024-10-22 17:13:00 I/NetworkServiceFactory: trying CDN http://sbtx.f3.ttvt.cc
+2024-10-22 17:13:00 W/NetworkServiceFactory: trpgbot CDN by http://sbtx.f3.ttvt.cc 暂不可用，下次重载配置前将不连接该 CDN. Server returned HTTP response code: 403 for URL: http://sbtx.f3.ttvt.cc
+2024-10-22 17:13:00 I/NetworkServiceFactory: trying CDN https://qsign.chahuyun.cn
+2024-10-22 17:13:00 I/NetworkServiceFactory: 已将 ANDROID_PAD 从本地配置自动升级至 9.0.56.16830
+2024-10-22 17:13:00 I/plugin: Successfully loaded plugin trpgbot v1.13.1
+2024-10-22 17:13:00 I/plugin: Successfully loaded plugin Demo v0.1.0
+2024-10-22 17:13:00 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2024-10-22 17:13:01 I/plugin: Successfully loaded plugin mirai-openai-plugin v1.3.4
+2024-10-22 17:13:01 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-10-22 17:13:01 I/5000choyen: 5000choyen 插件已成功加载
+2024-10-22 17:13:02 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 17:13:02 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2024-10-22 17:13:02 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2024-10-22 17:13:02 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:244)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:393)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:40)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:54)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:193)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:360)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+2024-10-22 17:13:02 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+2024-10-22 17:13:02 W/stderr: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2024-10-22 17:13:02 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2024-10-22 17:13:02 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2024-10-22 17:13:02 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 17:13:02 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2024-10-22 17:13:02 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2024-10-22 17:13:02 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2024-10-22 17:13:02 W/stderr: 	... 25 more
+2024-10-22 17:13:02 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 17:13:02 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2024-10-22 17:13:02 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)
+2024-10-22 17:13:02 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+2024-10-22 17:13:02 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2024-10-22 17:13:02 W/stderr: 	... 27 more
+2024-10-22 17:13:02 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2024-10-22 17:13:02 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2024-10-22 17:13:02 I/点歌插件: 插件加载完毕!
+2024-10-22 17:13:02 I/大富翁: 读取配置
+2024-10-22 17:13:02 I/大富翁: bot主人：-1
+2024-10-22 17:13:02 I/大富翁: 工作群聊：[]
+2024-10-22 17:13:02 I/大富翁: 加载地图ing
+2024-10-22 17:13:02 I/大富翁: 地图列表：
+2024-10-22 17:13:02 I/大富翁: 1:默认地图
+2024-10-22 17:13:02 I/大富翁: 初始化完成
+2024-10-22 17:13:02 I/PetPet: Petpet GifMakerThreadPoolSize: 13
+2024-10-22 17:13:02 I/PetPet: ヾ(≧▽≦*)o Petpet 初始化成功，使用 pet 以获取keyList!
+2024-10-22 17:13:02 W/PetPet: 无法读取文件, 请检查data目录 (files.length = 0)
+2024-10-22 17:13:02 I/PetPet: Petpet 加载完毕 (共 0 素材，随机表列包含 0 素材，已禁用 0)
+2024-10-22 17:13:02 I/PetPet: 
+
+    ██████╗ ███████╗████████╗██████╗ ███████╗████████╗
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+    ██████╔╝█████╗     ██║   ██████╔╝█████╗     ██║   
+    ██╔═══╝ ██╔══╝     ██║   ██╔═══╝ ██╔══╝     ██║   
+    ██║     ███████╗   ██║   ██║     ███████╗   ██║   
+    ╚═╝     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝   ╚═╝     v6.2
+
+2024-10-22 17:13:02 I/谁是卧底: spy准备就绪！
+2024-10-22 17:13:02 I/trpgbot: 当前各登录协议版本日期: 
+ANDROID_PHONE  8.9.58.11170  2023-05-19T11:35+08:00
+ANDROID_PAD    9.0.56.16830  2024-04-18T15:12:37+08:00
+ANDROID_WATCH  2.0.8         2019-06-03T20:25:31+08:00
+IPAD           8.9.50.611    2023-02-16T15:10:14+08:00
+MACOS          6.8.2.21241   2022-03-14T11:11:35+08:00
+
+请使用 ANDROID_PAD 协议登录
+
+2024-10-22 17:13:03 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2024-10-22 17:13:03 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2024-10-22 17:13:03 I/mirai-openai-plugin: 代理已配置: http://127.0.0.1:7890
+2024-10-22 17:13:03 I/mirai-openai-plugin: 权限检查未开启
+2024-10-22 17:13:03 I/main: 13 plugin(s) enabled.
+2024-10-22 17:13:04 I/main: Auto-login 3588760845, protocol: ANDROID_PAD, heartbeatStrategy: STAT_HB
+2024-10-22 17:13:04 I/NetworkServiceFactory: 创建 EncryptService(id=3588760845), protocol=ANDROID_PAD(9.0.56) from file:///H:/各种文件夹（常用）/mcl-2.1/network.json
+2024-10-22 17:13:04 I/NetworkServiceFactory: trying Main Server https://qsign.trpgbot.com
+2024-10-22 17:13:04 W/NetworkServiceFactory: trpgbot Main by https://qsign.trpgbot.com 暂不可用 Connection reset
+2024-10-22 17:13:04 I/NetworkServiceFactory: trying CDN https://qsign.chahuyun.cn
+2024-10-22 17:13:04 I/NetworkServiceFactory: trpgbot from https://qsign.chahuyun.cn about 
+{"msg":"IAA 云天明 章北海 赵怡然### Astral Protection Core: 由于系统近期检测到这段时间有来自未知流量的非法攻击，为了保护其他用户的正常使用，较大资源消耗的IP将被限制，如需需要添加IP白名单请联系签名维护者 https://mirai.mamoe.net/topic/2673/qsign-9-0-55-9-0-95-%E5%85%AC%E7%9B%8A-api%E5%8F%91%E5%B8%83","code":0,"data":{"protocol":{"code":"6372","package_name":"com.tencent.mobileqq","qua":"V1_AND_SQ_9.0.56_6372_YYB_D","version":"9.0.56"},"stat":{"Speed":{"SIGN-OPM5":3540,"SIGN-OPS":13,"SIGN-OPM":798,"SIGN-OPM10":6941},"Call":{"Energy":33851,"Sign":527386},"Errors":{"Attack":2,"Common":11},"Performance":{"Energy":50,"Sign":75}},"instances":["0c1b","0c1b-3","0c1b-2","0c1f"],"version":"1.2.4","support":["9.0.65","9.0.55","9.0.85","9.0.56","9.0.81","9.0.60","9.0.95","9.0.90","9.1.0"]}}
+2024-10-22 17:13:05 I/Bot.3588760845: Loaded account secrets from local cache.
+2024-10-22 17:13:06 I/UnidbgFetchQsign: Bot(3588760845) initialize by https://qsign.chahuyun.cn
+2024-10-22 17:13:06 I/UnidbgFetchQsign: Bot(3588760845) register, 注册成功。
+2024-10-22 17:13:06 I/UnidbgFetchQsign: Bot(3588760845) initialize complete
+2024-10-22 17:13:07 I/Bot.3588760845: Saved account secrets to local cache for fast login.
+2024-10-22 17:13:07 I/Bot.3588760845: Login successful.
+2024-10-22 17:13:09 V/Bot.3588760845: Event: BotOnlineEvent(bot=Bot(3588760845))
+2024-10-22 17:13:09 I/Bot.3588760845: Bot login successful.
+2024-10-22 17:13:09 V/Bot.3588760845: Event: AutoLoginEvent.Success(bot=3588760845, protocol=ANDROID_PAD, heartbeatStrategy=STAT_HB)
+2024-10-22 17:13:09 I/main: mirai-console started successfully.
+2024-10-22 17:13:28 V/Bot.3588760845: 道难(2894566646) -> #BotFive
+2024-10-22 17:13:34 W/PetPet: 无法连接到远程仓库: https://github.com/Dituon/petpet/raw/main/
+java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:896)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:726)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1688)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at petpet-6.2.jar//moe.dituon.petpet.plugin.DataUpdater.getUrlBytes(DataUpdater.java:38)
+	at petpet-6.2.jar//moe.dituon.petpet.plugin.DataUpdater.getUrlText(DataUpdater.java:44)
+	at petpet-6.2.jar//moe.dituon.petpet.plugin.DataUpdater.autoUpdate(DataUpdater.java:60)
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.lambda$onEnable$0(MiraiPetpet.java:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024-10-22 17:13:49 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> #BotFive
+2024-10-22 17:13:50 V/Bot.3588760845: Group(712143999) <- Hi，我是小55bot！
+我现在有以下功能：
+1.点歌 示例：#音乐 xx
+2.发送图片，发送pet来获取帮助 示例：pet @daonan
+3.大富翁：发送#大富翁来获取帮助 示例：！开始大富翁
+4.生成某风格图片 示例：/5k KFC(换行)vivo50
+5.chatGPT问答 发送#AiFive来获取帮助
+本项目地址：https://github.com/daonan233/BotFive
+
+2024-10-22 17:14:10 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> #AiFive
+2024-10-22 17:14:10 V/Bot.3588760845: Group(712143999) <- 恭喜BotFive从笨比机器人进入智能时代！
+输入chat：进入与bot聊天模式
+输入chat #猫娘/雌小鬼：分别在两种预设下进行回答
+输入Q&A：进入与bot知识问答模式
+输入stop：停止聊天与问答模式
+！前缀：生成!后关键词生成的图片
+>前缀：进入自定义模型
+接口来源：https://github.com/cssxsh/mirai-openai-plugin
+ps:特此感谢桃子提供的openai api-key
+2024-10-22 17:14:15 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> chat
+2024-10-22 17:14:16 V/Bot.3588760845: Group(712143999) <- [mirai:quote:[mirai:source:ids=[3377], internalIds=[673506668], from group 2894566646 to 712143999 at 1729588456], content=chat]聊天将开始
+2024-10-22 17:14:18 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> 你好
+2024-10-22 17:14:29 I/stdout: [java.net.SocketTimeoutException: Connect timed out, java.net.SocketException: Connection reset, java.net.SocketException: Connection reset]
+2024-10-22 17:14:35 W/MiraiOpenAiListener: MiraiOpenAiListener with GroupMessageEvent(group=712143999, senderName=道难, sender=2894566646, permission=OWNER, message=[mirai:source:ids=[3377], internalIds=[673506668], from group 2894566646 to 712143999 at 1729588456]chat)
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1709)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1508)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1415)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:450)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:421)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealConnection.connectTls(RealConnection.kt:379)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealConnection.establishProtocol(RealConnection.kt:337)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:209)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1500)
+	... 23 more
+
+2024-10-22 17:15:08 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] 你说得对(2905496995) -> 感觉这种人需要有个勇士不接受赔款然后继续告
+2024-10-22 17:15:13 V/Bot.3588760845: [沙邮工具人(795836745)] 文采斐然(1283365985) -> [mirai:quote:[mirai:source:ids=[567788], internalIds=[913002926], from 2465795964 to 795836745 at 1729588294], content=<not yet initialized>][mirai:at:2465795964] 这是什么）
+2024-10-22 17:15:19 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] 你说得对(2905496995) -> 救他只能靠法律了
+2024-10-22 17:15:21 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] 你说得对(2905496995) -> [不支持的消息#659023945]
+2024-10-22 17:15:25 V/Bot.3588760845: [沙邮工具人(795836745)] 1955-电报系-bcm(2465795964) -> [mirai:quote:[mirai:source:ids=[567790], internalIds=[1346834578], from 1283365985 to 795836745 at 1729588514], content=<not yet initialized>][mirai:at:1283365985] 这是我的晚饭
+2024-10-22 17:15:31 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> pet
+2024-10-22 17:15:32 V/Bot.3588760845: Group(712143999) <- ForwardMessage(preview=[petpet!: Petpet KeyList: 
+], title=群聊的聊天记录, brief=[聊天记录], source=聊天记录, summary=查看1条转发消息, nodeList=[Node(senderId=3588760845, time=1729588531, senderName=petpet!, messageChain=Petpet KeyList: 
+)])
+2024-10-22 17:15:41 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> pet [mirai:at:3588760845] 
+2024-10-22 17:15:41 W/Bot.3588760845: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 3588760845.EventDispatcher'
+java.lang.IllegalArgumentException: bound must be positive
+	at java.base/java.util.Random.nextInt(Random.java:321)
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.responseMessage(MiraiPetpet.java:260)
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.onGroupMessage(MiraiPetpet.java:159)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:605)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:605)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2024-10-22 17:16:12 V/Bot.3588760845: [搞怪君的Raven's小酒馆(790180599)] InuyamaAoi(1183773890) -> [不支持的消息#1657875012]
+2024-10-22 17:16:22 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] 一号表情(1159863502) -> 直接起诉  按刑事案件算？
+2024-10-22 17:16:39 V/Bot.3588760845: [沙邮工具人(795836745)] Staudinger(2488562170) -> 是我的
+2024-10-22 17:16:47 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] 一号表情(1159863502) -> 十万那次已经够三年以上了
+2024-10-22 17:16:54 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> chat
+2024-10-22 17:16:55 V/Bot.3588760845: Group(712143999) <- [mirai:quote:[mirai:source:ids=[3383], internalIds=[869493646], from group 2894566646 to 712143999 at 1729588616], content=chat]聊天将开始
+2024-10-22 17:16:57 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> 你好
+2024-10-22 17:17:37 I/stdout: [java.net.SocketTimeoutException: Connect timed out, java.net.SocketTimeoutException: Connect timed out, java.net.SocketTimeoutException: Connect timed out]
+2024-10-22 17:17:39 W/MiraiOpenAiListener: MiraiOpenAiListener with GroupMessageEvent(group=712143999, senderName=道难, sender=2894566646, permission=OWNER, message=[mirai:source:ids=[3383], internalIds=[869493646], from group 2894566646 to 712143999 at 1729588616]chat)
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1709)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1508)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1415)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:450)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:421)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealConnection.connectTls(RealConnection.kt:379)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealConnection.establishProtocol(RealConnection.kt:337)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:209)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+	at mirai-openai-plugin-1.3.4.mirai2.jar[private]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1500)
+	... 23 more
+
+2024-10-22 17:18:02 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] 一号表情(1159863502) -> 这种人北邮怎么还不开了啊
+2024-10-22 17:18:12 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] 一号表情(1159863502) -> 开了就不是北邮的了
+2024-10-22 17:18:15 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] 一号表情(1159863502) -> 让他自生自灭
+2024-10-22 17:21:33 I/main: Starting mirai-console...
+2024-10-22 17:21:33 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2024-10-22 17:21:33 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2024-10-22 17:21:33 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2024-10-22 17:21:33 I/main: Welcome to visit https://mirai.mamoe.net/
+2024-10-22 17:21:34 I/plugin: Successfully loaded plugin 5000choyen v1.0.0
+2024-10-22 17:21:34 I/plugin: Successfully loaded plugin Demo8 v0.1.0
+2024-10-22 17:21:35 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.9
+2024-10-22 17:21:35 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2024-10-22 17:21:35 I/plugin: Successfully loaded plugin 大富翁 v0.1.2
+2024-10-22 17:21:35 I/plugin: Successfully loaded plugin PetPet v6.2
+2024-10-22 17:21:35 I/plugin: Successfully loaded plugin pixiv插画 v1.7.6
+2024-10-22 17:21:35 I/plugin: Successfully loaded plugin 谁是卧底 v1.0
+2024-10-22 17:21:35 I/trpgbot: 协议版本检查更新...
+2024-10-22 17:21:35 I/trpgbot: 注册服务...
+2024-10-22 17:21:35 I/trpgbot: 服务配置文件: 
+ file:///H:/各种文件夹（常用）/mcl-2.1/network.json
+2024-10-22 17:21:35 W/trpgbot: 您正在使用远程签名服务，数据包将经过签名服务器，请勿添加不可信源
+2024-10-22 17:21:35 W/EncryptService.alert: Encrypt service was loaded: NetworkServiceFactory(config=file:///H:/各种文件夹（常用）/mcl-2.1/network.json)
+2024-10-22 17:21:35 W/EncryptService.alert: All outgoing message may be leaked by this service.
+2024-10-22 17:21:35 W/EncryptService.alert: Use this service if and only if you trusted this service and the service provider.
+2024-10-22 17:21:35 W/EncryptService.alert: Service details:
+2024-10-22 17:21:35 W/EncryptService.alert:   `- Jvm Class: class xyz.cssxsh.mirai.tool.NetworkServiceFactory
+2024-10-22 17:21:35 W/EncryptService.alert:   `- ClassLoader: JvmPluginClassLoader{trpgbot-1.13.1.mirai2.jar}
+2024-10-22 17:21:35 W/EncryptService.alert:   `- Source: file:/H:/各种文件夹（常用）/mcl-2.1/plugins/trpgbot-1.13.1.mirai2.jar
+2024-10-22 17:21:35 W/EncryptService.alert:   `- Protected Domain: ProtectionDomain  (file:/H:/各种文件夹（常用）/mcl-2.1/plugins/trpgbot-1.13.1.mirai2.jar <no signer certificates>)
+ JvmPluginClassLoader{trpgbot-1.13.1.mirai2.jar}
+ <no principals>
+ java.security.Permissions@7bc2ae16 (
+ ("java.io.FilePermission" "H:\各种文件夹（常用）\mcl-2.1\plugins\trpgbot-1.13.1.mirai2.jar" "read")
+)
+
+
+2024-10-22 17:21:35 I/trpgbot: 正在检查可用的签名服务器
+2024-10-22 17:21:35 I/NetworkServiceFactory: trying Main Server https://qsign.trpgbot.com
+2024-10-22 17:21:56 W/NetworkServiceFactory: trpgbot Main by https://qsign.trpgbot.com 暂不可用 Connection timed out: connect
+2024-10-22 17:21:56 I/NetworkServiceFactory: trying CDN http://sbtx.f3.ttvt.cc
+2024-10-22 17:21:56 W/NetworkServiceFactory: trpgbot CDN by http://sbtx.f3.ttvt.cc 暂不可用，下次重载配置前将不连接该 CDN. Server returned HTTP response code: 403 for URL: http://sbtx.f3.ttvt.cc
+2024-10-22 17:21:56 I/NetworkServiceFactory: trying CDN https://qsign.chahuyun.cn
+2024-10-22 17:21:56 I/NetworkServiceFactory: 已将 ANDROID_PAD 从本地配置自动升级至 9.0.56.16830
+2024-10-22 17:21:56 I/plugin: Successfully loaded plugin trpgbot v1.13.1
+2024-10-22 17:21:56 I/plugin: Successfully loaded plugin Demo v0.1.0
+2024-10-22 17:21:56 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2024-10-22 17:21:56 I/plugin: Successfully loaded plugin mirai-openai-plugin v1.3.4
+2024-10-22 17:21:56 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2024-10-22 17:21:57 I/5000choyen: 5000choyen 插件已成功加载
+2024-10-22 17:21:57 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 17:21:57 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2024-10-22 17:21:57 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2024-10-22 17:21:57 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:244)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:393)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:40)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:54)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:193)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:360)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+2024-10-22 17:21:57 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+2024-10-22 17:21:57 W/stderr: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2024-10-22 17:21:57 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2024-10-22 17:21:57 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2024-10-22 17:21:57 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 17:21:57 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2024-10-22 17:21:57 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2024-10-22 17:21:57 W/stderr: 	at MiraiSongPlugin-2.7-1.2.1.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2024-10-22 17:21:57 W/stderr: 	... 25 more
+2024-10-22 17:21:57 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2024-10-22 17:21:57 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2024-10-22 17:21:57 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:494)
+2024-10-22 17:21:57 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+2024-10-22 17:21:57 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2024-10-22 17:21:57 W/stderr: 	... 27 more
+2024-10-22 17:21:57 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2024-10-22 17:21:57 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2024-10-22 17:21:57 I/点歌插件: 插件加载完毕!
+2024-10-22 17:21:57 I/大富翁: 读取配置
+2024-10-22 17:21:57 I/大富翁: bot主人：-1
+2024-10-22 17:21:57 I/大富翁: 工作群聊：[]
+2024-10-22 17:21:57 I/大富翁: 加载地图ing
+2024-10-22 17:21:57 I/大富翁: 地图列表：
+2024-10-22 17:21:57 I/大富翁: 1:默认地图
+2024-10-22 17:21:57 I/大富翁: 初始化完成
+2024-10-22 17:21:57 I/PetPet: Petpet GifMakerThreadPoolSize: 13
+2024-10-22 17:21:57 I/PetPet: ヾ(≧▽≦*)o Petpet 初始化成功，使用 pet 以获取keyList!
+2024-10-22 17:21:57 I/PetPet: 注册字体成功: [Aller-Bold.ttf, Handel-Gothic.ttf, MiSans-Bold.ttf]
+2024-10-22 17:21:57 I/PetPet: Petpet 加载完毕 (共 133 素材，随机表列包含 90 素材，已禁用 0)
+2024-10-22 17:21:57 I/PetPet: 
+
+    ██████╗ ███████╗████████╗██████╗ ███████╗████████╗
+    ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝
+    ██████╔╝█████╗     ██║   ██████╔╝█████╗     ██║   
+    ██╔═══╝ ██╔══╝     ██║   ██╔═══╝ ██╔══╝     ██║   
+    ██║     ███████╗   ██║   ██║     ███████╗   ██║   
+    ╚═╝     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝   ╚═╝     v6.2
+
+2024-10-22 17:21:57 I/谁是卧底: spy准备就绪！
+2024-10-22 17:21:57 I/trpgbot: 当前各登录协议版本日期: 
+ANDROID_PHONE  8.9.58.11170  2023-05-19T11:35+08:00
+ANDROID_PAD    9.0.56.16830  2024-04-18T15:12:37+08:00
+ANDROID_WATCH  2.0.8         2019-06-03T20:25:31+08:00
+IPAD           8.9.50.611    2023-02-16T15:10:14+08:00
+MACOS          6.8.2.21241   2022-03-14T11:11:35+08:00
+
+请使用 ANDROID_PAD 协议登录
+
+2024-10-22 17:21:57 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2024-10-22 17:21:57 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2024-10-22 17:21:58 I/mirai-openai-plugin: 代理已配置: http://127.0.0.1:7890
+2024-10-22 17:21:58 I/mirai-openai-plugin: 权限检查未开启
+2024-10-22 17:21:58 I/main: 13 plugin(s) enabled.
+2024-10-22 17:21:58 I/main: Auto-login 3588760845, protocol: ANDROID_PAD, heartbeatStrategy: STAT_HB
+2024-10-22 17:21:58 I/NetworkServiceFactory: 创建 EncryptService(id=3588760845), protocol=ANDROID_PAD(9.0.56) from file:///H:/各种文件夹（常用）/mcl-2.1/network.json
+2024-10-22 17:21:58 I/NetworkServiceFactory: trying Main Server https://qsign.trpgbot.com
+2024-10-22 17:22:18 W/PetPet: 无法连接到远程仓库: https://github.com/Dituon/petpet/raw/main/
+java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:378)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at petpet-6.2.jar//moe.dituon.petpet.plugin.DataUpdater.getUrlBytes(DataUpdater.java:38)
+	at petpet-6.2.jar//moe.dituon.petpet.plugin.DataUpdater.getUrlText(DataUpdater.java:44)
+	at petpet-6.2.jar//moe.dituon.petpet.plugin.DataUpdater.autoUpdate(DataUpdater.java:60)
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.lambda$onEnable$0(MiraiPetpet.java:69)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024-10-22 17:22:19 W/NetworkServiceFactory: trpgbot Main by https://qsign.trpgbot.com 暂不可用 Connection timed out: connect
+2024-10-22 17:22:19 I/NetworkServiceFactory: trying CDN https://qsign.chahuyun.cn
+2024-10-22 17:22:19 I/NetworkServiceFactory: trpgbot from https://qsign.chahuyun.cn about 
+{"msg":"IAA 云天明 章北海 赵怡然### Astral Protection Core: 由于系统近期检测到这段时间有来自未知流量的非法攻击，为了保护其他用户的正常使用，较大资源消耗的IP将被限制，如需需要添加IP白名单请联系签名维护者 https://mirai.mamoe.net/topic/2673/qsign-9-0-55-9-0-95-%E5%85%AC%E7%9B%8A-api%E5%8F%91%E5%B8%83","code":0,"data":{"protocol":{"code":"6372","package_name":"com.tencent.mobileqq","qua":"V1_AND_SQ_9.0.56_6372_YYB_D","version":"9.0.56"},"stat":{"Speed":{"SIGN-OPM5":3656,"SIGN-OPS":13,"SIGN-OPM":815,"SIGN-OPM10":7224},"Call":{"Energy":33961,"Sign":533057},"Errors":{"Attack":2,"Common":11},"Performance":{"Energy":54,"Sign":91}},"instances":["0c1b","0c1b-3","0c1b-2","0c1f"],"version":"1.2.4","support":["9.0.65","9.0.55","9.0.85","9.0.56","9.0.81","9.0.60","9.0.95","9.0.90","9.1.0"]}}
+2024-10-22 17:22:19 I/Bot.3588760845: Loaded account secrets from local cache.
+2024-10-22 17:22:19 I/UnidbgFetchQsign: Bot(3588760845) initialize by https://qsign.chahuyun.cn
+2024-10-22 17:22:20 I/UnidbgFetchQsign: Bot(3588760845) register, 注册成功。
+2024-10-22 17:22:20 I/UnidbgFetchQsign: Bot(3588760845) initialize complete
+2024-10-22 17:22:20 I/Bot.3588760845: Saved account secrets to local cache for fast login.
+2024-10-22 17:22:20 I/Bot.3588760845: Login successful.
+2024-10-22 17:22:22 V/Bot.3588760845: Event: BotOnlineEvent(bot=Bot(3588760845))
+2024-10-22 17:22:22 I/Bot.3588760845: Bot login successful.
+2024-10-22 17:22:22 V/Bot.3588760845: Event: AutoLoginEvent.Success(bot=3588760845, protocol=ANDROID_PAD, heartbeatStrategy=STAT_HB)
+2024-10-22 17:22:22 I/main: mirai-console started successfully.
+2024-10-22 17:22:32 V/Bot.3588760845: [国焘飞舞和🤡(492665815)] by(1934132169) -> 赌狗真该死了
+2024-10-22 17:22:34 V/Bot.3588760845: [沙邮工具人(795836745)] 1955-电报系-bcm(2465795964) -> [mirai:quote:[mirai:source:ids=[567792], internalIds=[763069849], from 2488562170 to 795836745 at 1729588600], content=<not yet initialized>][mirai:at:2488562170] 是这么回事吗
+2024-10-22 17:22:36 V/Bot.3588760845: [daonan family(712143999)][SYNC] <- pet
+2024-10-22 17:22:57 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> pet
+2024-10-22 17:22:58 V/Bot.3588760845: Group(712143999) <- ForwardMessage(preview=[petpet!: Petpet KeyList: 
+
+acclaim ( 喝彩 欢呼 )
+addiction ( 上瘾 毒瘾发作 )
+always ( 要我一直 )
+anyasuki ( 阿尼亚 喜欢 )
+applaud ( 鼓掌 )
+ask ( 问问 )
+bible ( 圣经 典中典 )
+bite ( 啃 咬 )
+bocchi ( 波奇 )
+brain ( 大脑升级 妈妈生的 )
+breakdown ( 惊吓 击穿 )
+breast ( 胸 凶 )
+buckle ( 泉此方 扣 )
+bulge ( 膨胀 鱼眼 透镜 )
+capoo_rub ( 咖波蹭 蹭 )
+carte ( 佩可莉姆 菜单 单页 )
+cast ( 丢 )
+center_symmetry ( 中心对称 左上对称 )
+certificate ( 喜报 )
+chase_train ( 追列车 追火车 )
+coupon ( 陪睡 )
+cover_face ( 挡 )
+crawl ( 爬 )
+cum ( 射 )
+decent_kiss ( 抱歉 )
+deer ( 鹿乃子 🦌 )
+deer-show ( 虎视子 展示 )
+dinosaur ( 恐龙 小恐龙 )
+distracted ( 注意力 )
+divorce ( 离婚申请 离婚协议 离婚 )
+dont_touch ( 不要靠近 )
+down_symmetry ( 对称 下对称 上下对称 )
+eat ( 吃 )
+eat_earth ( 啃地球 )
+fantasy_time ( 幻想时间 )
+fencing ( 击剑 🤺 )
+frieren_take ( 芙莉莲 拿 )
+garbage ( 垃圾桶 垃圾 探头 )
+genshin_start ( 启动 )
+gluing ( 打胶 )
+hammer ( 锤 )
+hold ( 举牌 应援 )
+hold_sign ( 唐可可 举牌 应援 )
+hypnotize ( 手机 催眠 486 mmk )
+interview ( 采访 )
+jerry_hold ( 杰瑞 观察 )
+jiujiu ( 么么 )
+join ( 加入 )
+karyl_point ( 指 凯露指 )
+keep_away ( 远离 )
+kick_ball ( 踢球 )
+kirby_hammer ( 卡比锤 卡比重锤 重锤 )
+kiss ( 亲 热吻 )
+kita ( 喜多 展示 )
+knock ( 敲 打 )
+kurumi ( 胡桃 放大 )
+left_down_symmetry ( 中心对称 左下对称 )
+leg ( 蹭 )
+lift ( 举起 )
+like ( 永远喜欢 )
+loading ( 加载 加载中 )
+lost_notice ( 寻狗启事 )
+make_friend ( 加好友 )
+marry ( 结婚 )
+masterpiece ( 名作 )
+monad ( 唐可可 拍 单页 )
+mourning ( 上香 )
+nano ( 纳米科技 )
+need ( 需要 )
+no_response ( 无响应 )
+oil ( 油画 )
+osu
+painter ( 画 )
+pat ( 拍 )
+peep ( 泷奈 偷看 )
+perfect ( 完美 )
+petpet ( 摸 摸头 )
+php
+pinch ( 透镜 收缩 捏合 )
+play ( 玩 顶 )
+point_tv ( 康纳 电视 )
+police ( 警察 )
+pomni_door ( 帕姆尼 开门 )
+potato ( 土豆 )
+pound ( 捣 )
+pr ( 舔屏 )
+printing ( 打印 )
+punch ( 打拳 )
+record ( 唱片 )
+remake ( 泥头车 创 重开 )
+reverse ( 倒放 )
+reward ( 伊蕾娜 赏金 报酬 )
+rgb ( 变色 )
+right_down_symmetry ( 中心对称 右下对称 )
+right_symmetry ( 对称 右对称 左右对称 )
+right_up_symmetry ( 中心对称 右上对称 )
+rise_dead ( 诈尸 秽土转生 )
+roll ( 滚 推 )
+rub ( 舔 prpr )
+sad_news ( 悲报 )
+safe_sense ( 安全感 )
+scratch_head ( 挠头 )
+screen ( 屏幕 )
+sell ( 卖 人气 )
+show_case ( 展示 )
+smash ( 砸 打碎 )
+stew ( 炖 )
+suck ( 吸 )
+support ( 精神支柱 )
+sweat ( 流汗 )
+swim ( 潜水 游泳 水下 )
+swirl ( 扭曲 )
+symmetry ( 对称 左对称 左右对称 )
+talisman ( 符咒 )
+teach ( 讲课 敲黑板 )
+teapot ( 泡茶 )
+tear ( 撕 )
+thinkwhat ( 想 )
+throw ( 扔 )
+thump ( 锤 )
+tightly ( 黏 )
+tom_door ( 汤姆 开门 )
+turtle ( 乌龟 🐢 )
+twist ( 抱 )
+up_symmetry ( 对称 上对称 上下对称 )
+wallpaper ( 瑞克 壁纸 )
+walnutpad ( 胡桃平板 平板 )
+watch_tv ( 汤姆 电视 )
+wife ( 老婆 )
+worship ( 膜拜 )
+yoasobi ( 群青 )
+zun_point ( ZUN 指 合影 )], title=群聊的聊天记录, brief=[聊天记录], source=聊天记录, summary=查看1条转发消息, nodeList=[Node(senderId=3588760845, time=1729588977, senderName=petpet!, messageChain=Petpet KeyList: 
+
+acclaim ( 喝彩 欢呼 )
+addiction ( 上瘾 毒瘾发作 )
+always ( 要我一直 )
+anyasuki ( 阿尼亚 喜欢 )
+applaud ( 鼓掌 )
+ask ( 问问 )
+bible ( 圣经 典中典 )
+bite ( 啃 咬 )
+bocchi ( 波奇 )
+brain ( 大脑升级 妈妈生的 )
+breakdown ( 惊吓 击穿 )
+breast ( 胸 凶 )
+buckle ( 泉此方 扣 )
+bulge ( 膨胀 鱼眼 透镜 )
+capoo_rub ( 咖波蹭 蹭 )
+carte ( 佩可莉姆 菜单 单页 )
+cast ( 丢 )
+center_symmetry ( 中心对称 左上对称 )
+certificate ( 喜报 )
+chase_train ( 追列车 追火车 )
+coupon ( 陪睡 )
+cover_face ( 挡 )
+crawl ( 爬 )
+cum ( 射 )
+decent_kiss ( 抱歉 )
+deer ( 鹿乃子 🦌 )
+deer-show ( 虎视子 展示 )
+dinosaur ( 恐龙 小恐龙 )
+distracted ( 注意力 )
+divorce ( 离婚申请 离婚协议 离婚 )
+dont_touch ( 不要靠近 )
+down_symmetry ( 对称 下对称 上下对称 )
+eat ( 吃 )
+eat_earth ( 啃地球 )
+fantasy_time ( 幻想时间 )
+fencing ( 击剑 🤺 )
+frieren_take ( 芙莉莲 拿 )
+garbage ( 垃圾桶 垃圾 探头 )
+genshin_start ( 启动 )
+gluing ( 打胶 )
+hammer ( 锤 )
+hold ( 举牌 应援 )
+hold_sign ( 唐可可 举牌 应援 )
+hypnotize ( 手机 催眠 486 mmk )
+interview ( 采访 )
+jerry_hold ( 杰瑞 观察 )
+jiujiu ( 么么 )
+join ( 加入 )
+karyl_point ( 指 凯露指 )
+keep_away ( 远离 )
+kick_ball ( 踢球 )
+kirby_hammer ( 卡比锤 卡比重锤 重锤 )
+kiss ( 亲 热吻 )
+kita ( 喜多 展示 )
+knock ( 敲 打 )
+kurumi ( 胡桃 放大 )
+left_down_symmetry ( 中心对称 左下对称 )
+leg ( 蹭 )
+lift ( 举起 )
+like ( 永远喜欢 )
+loading ( 加载 加载中 )
+lost_notice ( 寻狗启事 )
+make_friend ( 加好友 )
+marry ( 结婚 )
+masterpiece ( 名作 )
+monad ( 唐可可 拍 单页 )
+mourning ( 上香 )
+nano ( 纳米科技 )
+need ( 需要 )
+no_response ( 无响应 )
+oil ( 油画 )
+osu
+painter ( 画 )
+pat ( 拍 )
+peep ( 泷奈 偷看 )
+perfect ( 完美 )
+petpet ( 摸 摸头 )
+php
+pinch ( 透镜 收缩 捏合 )
+play ( 玩 顶 )
+point_tv ( 康纳 电视 )
+police ( 警察 )
+pomni_door ( 帕姆尼 开门 )
+potato ( 土豆 )
+pound ( 捣 )
+pr ( 舔屏 )
+printing ( 打印 )
+punch ( 打拳 )
+record ( 唱片 )
+remake ( 泥头车 创 重开 )
+reverse ( 倒放 )
+reward ( 伊蕾娜 赏金 报酬 )
+rgb ( 变色 )
+right_down_symmetry ( 中心对称 右下对称 )
+right_symmetry ( 对称 右对称 左右对称 )
+right_up_symmetry ( 中心对称 右上对称 )
+rise_dead ( 诈尸 秽土转生 )
+roll ( 滚 推 )
+rub ( 舔 prpr )
+sad_news ( 悲报 )
+safe_sense ( 安全感 )
+scratch_head ( 挠头 )
+screen ( 屏幕 )
+sell ( 卖 人气 )
+show_case ( 展示 )
+smash ( 砸 打碎 )
+stew ( 炖 )
+suck ( 吸 )
+support ( 精神支柱 )
+sweat ( 流汗 )
+swim ( 潜水 游泳 水下 )
+swirl ( 扭曲 )
+symmetry ( 对称 左对称 左右对称 )
+talisman ( 符咒 )
+teach ( 讲课 敲黑板 )
+teapot ( 泡茶 )
+tear ( 撕 )
+thinkwhat ( 想 )
+throw ( 扔 )
+thump ( 锤 )
+tightly ( 黏 )
+tom_door ( 汤姆 开门 )
+turtle ( 乌龟 🐢 )
+twist ( 抱 )
+up_symmetry ( 对称 上对称 上下对称 )
+wallpaper ( 瑞克 壁纸 )
+walnutpad ( 胡桃平板 平板 )
+watch_tv ( 汤姆 电视 )
+wife ( 老婆 )
+worship ( 膜拜 )
+yoasobi ( 群青 )
+zun_point ( ZUN 指 合影 ))])
+2024-10-22 17:23:08 V/Bot.3588760845: [daonan family(712143999)] 道难(2894566646) -> deer [mirai:at:3588760845] 
+2024-10-22 17:23:10 V/Bot.3588760845: Group(712143999) <- [mirai:image:{38FE8683-DB95-7BA5-7B1A-86647E3E2DCE}.png, width=1024, height=576, size=513282, type=PNG, isEmoji=false]
+2024-10-22 17:23:19 V/Bot.3588760845: [沉淀(646532226)][SYNC] <- pet
+2024-10-22 17:23:29 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> pet
+2024-10-22 17:23:29 V/Bot.3588760845: Group(646532226) <- ForwardMessage(preview=[petpet!: Petpet KeyList: 
+
+acclaim ( 喝彩 欢呼 )
+addiction ( 上瘾 毒瘾发作 )
+always ( 要我一直 )
+anyasuki ( 阿尼亚 喜欢 )
+applaud ( 鼓掌 )
+ask ( 问问 )
+bible ( 圣经 典中典 )
+bite ( 啃 咬 )
+bocchi ( 波奇 )
+brain ( 大脑升级 妈妈生的 )
+breakdown ( 惊吓 击穿 )
+breast ( 胸 凶 )
+buckle ( 泉此方 扣 )
+bulge ( 膨胀 鱼眼 透镜 )
+capoo_rub ( 咖波蹭 蹭 )
+carte ( 佩可莉姆 菜单 单页 )
+cast ( 丢 )
+center_symmetry ( 中心对称 左上对称 )
+certificate ( 喜报 )
+chase_train ( 追列车 追火车 )
+coupon ( 陪睡 )
+cover_face ( 挡 )
+crawl ( 爬 )
+cum ( 射 )
+decent_kiss ( 抱歉 )
+deer ( 鹿乃子 🦌 )
+deer-show ( 虎视子 展示 )
+dinosaur ( 恐龙 小恐龙 )
+distracted ( 注意力 )
+divorce ( 离婚申请 离婚协议 离婚 )
+dont_touch ( 不要靠近 )
+down_symmetry ( 对称 下对称 上下对称 )
+eat ( 吃 )
+eat_earth ( 啃地球 )
+fantasy_time ( 幻想时间 )
+fencing ( 击剑 🤺 )
+frieren_take ( 芙莉莲 拿 )
+garbage ( 垃圾桶 垃圾 探头 )
+genshin_start ( 启动 )
+gluing ( 打胶 )
+hammer ( 锤 )
+hold ( 举牌 应援 )
+hold_sign ( 唐可可 举牌 应援 )
+hypnotize ( 手机 催眠 486 mmk )
+interview ( 采访 )
+jerry_hold ( 杰瑞 观察 )
+jiujiu ( 么么 )
+join ( 加入 )
+karyl_point ( 指 凯露指 )
+keep_away ( 远离 )
+kick_ball ( 踢球 )
+kirby_hammer ( 卡比锤 卡比重锤 重锤 )
+kiss ( 亲 热吻 )
+kita ( 喜多 展示 )
+knock ( 敲 打 )
+kurumi ( 胡桃 放大 )
+left_down_symmetry ( 中心对称 左下对称 )
+leg ( 蹭 )
+lift ( 举起 )
+like ( 永远喜欢 )
+loading ( 加载 加载中 )
+lost_notice ( 寻狗启事 )
+make_friend ( 加好友 )
+marry ( 结婚 )
+masterpiece ( 名作 )
+monad ( 唐可可 拍 单页 )
+mourning ( 上香 )
+nano ( 纳米科技 )
+need ( 需要 )
+no_response ( 无响应 )
+oil ( 油画 )
+osu
+painter ( 画 )
+pat ( 拍 )
+peep ( 泷奈 偷看 )
+perfect ( 完美 )
+petpet ( 摸 摸头 )
+php
+pinch ( 透镜 收缩 捏合 )
+play ( 玩 顶 )
+point_tv ( 康纳 电视 )
+police ( 警察 )
+pomni_door ( 帕姆尼 开门 )
+potato ( 土豆 )
+pound ( 捣 )
+pr ( 舔屏 )
+printing ( 打印 )
+punch ( 打拳 )
+record ( 唱片 )
+remake ( 泥头车 创 重开 )
+reverse ( 倒放 )
+reward ( 伊蕾娜 赏金 报酬 )
+rgb ( 变色 )
+right_down_symmetry ( 中心对称 右下对称 )
+right_symmetry ( 对称 右对称 左右对称 )
+right_up_symmetry ( 中心对称 右上对称 )
+rise_dead ( 诈尸 秽土转生 )
+roll ( 滚 推 )
+rub ( 舔 prpr )
+sad_news ( 悲报 )
+safe_sense ( 安全感 )
+scratch_head ( 挠头 )
+screen ( 屏幕 )
+sell ( 卖 人气 )
+show_case ( 展示 )
+smash ( 砸 打碎 )
+stew ( 炖 )
+suck ( 吸 )
+support ( 精神支柱 )
+sweat ( 流汗 )
+swim ( 潜水 游泳 水下 )
+swirl ( 扭曲 )
+symmetry ( 对称 左对称 左右对称 )
+talisman ( 符咒 )
+teach ( 讲课 敲黑板 )
+teapot ( 泡茶 )
+tear ( 撕 )
+thinkwhat ( 想 )
+throw ( 扔 )
+thump ( 锤 )
+tightly ( 黏 )
+tom_door ( 汤姆 开门 )
+turtle ( 乌龟 🐢 )
+twist ( 抱 )
+up_symmetry ( 对称 上对称 上下对称 )
+wallpaper ( 瑞克 壁纸 )
+walnutpad ( 胡桃平板 平板 )
+watch_tv ( 汤姆 电视 )
+wife ( 老婆 )
+worship ( 膜拜 )
+yoasobi ( 群青 )
+zun_point ( ZUN 指 合影 )], title=群聊的聊天记录, brief=[聊天记录], source=聊天记录, summary=查看1条转发消息, nodeList=[Node(senderId=3588760845, time=1729589009, senderName=petpet!, messageChain=Petpet KeyList: 
+
+acclaim ( 喝彩 欢呼 )
+addiction ( 上瘾 毒瘾发作 )
+always ( 要我一直 )
+anyasuki ( 阿尼亚 喜欢 )
+applaud ( 鼓掌 )
+ask ( 问问 )
+bible ( 圣经 典中典 )
+bite ( 啃 咬 )
+bocchi ( 波奇 )
+brain ( 大脑升级 妈妈生的 )
+breakdown ( 惊吓 击穿 )
+breast ( 胸 凶 )
+buckle ( 泉此方 扣 )
+bulge ( 膨胀 鱼眼 透镜 )
+capoo_rub ( 咖波蹭 蹭 )
+carte ( 佩可莉姆 菜单 单页 )
+cast ( 丢 )
+center_symmetry ( 中心对称 左上对称 )
+certificate ( 喜报 )
+chase_train ( 追列车 追火车 )
+coupon ( 陪睡 )
+cover_face ( 挡 )
+crawl ( 爬 )
+cum ( 射 )
+decent_kiss ( 抱歉 )
+deer ( 鹿乃子 🦌 )
+deer-show ( 虎视子 展示 )
+dinosaur ( 恐龙 小恐龙 )
+distracted ( 注意力 )
+divorce ( 离婚申请 离婚协议 离婚 )
+dont_touch ( 不要靠近 )
+down_symmetry ( 对称 下对称 上下对称 )
+eat ( 吃 )
+eat_earth ( 啃地球 )
+fantasy_time ( 幻想时间 )
+fencing ( 击剑 🤺 )
+frieren_take ( 芙莉莲 拿 )
+garbage ( 垃圾桶 垃圾 探头 )
+genshin_start ( 启动 )
+gluing ( 打胶 )
+hammer ( 锤 )
+hold ( 举牌 应援 )
+hold_sign ( 唐可可 举牌 应援 )
+hypnotize ( 手机 催眠 486 mmk )
+interview ( 采访 )
+jerry_hold ( 杰瑞 观察 )
+jiujiu ( 么么 )
+join ( 加入 )
+karyl_point ( 指 凯露指 )
+keep_away ( 远离 )
+kick_ball ( 踢球 )
+kirby_hammer ( 卡比锤 卡比重锤 重锤 )
+kiss ( 亲 热吻 )
+kita ( 喜多 展示 )
+knock ( 敲 打 )
+kurumi ( 胡桃 放大 )
+left_down_symmetry ( 中心对称 左下对称 )
+leg ( 蹭 )
+lift ( 举起 )
+like ( 永远喜欢 )
+loading ( 加载 加载中 )
+lost_notice ( 寻狗启事 )
+make_friend ( 加好友 )
+marry ( 结婚 )
+masterpiece ( 名作 )
+monad ( 唐可可 拍 单页 )
+mourning ( 上香 )
+nano ( 纳米科技 )
+need ( 需要 )
+no_response ( 无响应 )
+oil ( 油画 )
+osu
+painter ( 画 )
+pat ( 拍 )
+peep ( 泷奈 偷看 )
+perfect ( 完美 )
+petpet ( 摸 摸头 )
+php
+pinch ( 透镜 收缩 捏合 )
+play ( 玩 顶 )
+point_tv ( 康纳 电视 )
+police ( 警察 )
+pomni_door ( 帕姆尼 开门 )
+potato ( 土豆 )
+pound ( 捣 )
+pr ( 舔屏 )
+printing ( 打印 )
+punch ( 打拳 )
+record ( 唱片 )
+remake ( 泥头车 创 重开 )
+reverse ( 倒放 )
+reward ( 伊蕾娜 赏金 报酬 )
+rgb ( 变色 )
+right_down_symmetry ( 中心对称 右下对称 )
+right_symmetry ( 对称 右对称 左右对称 )
+right_up_symmetry ( 中心对称 右上对称 )
+rise_dead ( 诈尸 秽土转生 )
+roll ( 滚 推 )
+rub ( 舔 prpr )
+sad_news ( 悲报 )
+safe_sense ( 安全感 )
+scratch_head ( 挠头 )
+screen ( 屏幕 )
+sell ( 卖 人气 )
+show_case ( 展示 )
+smash ( 砸 打碎 )
+stew ( 炖 )
+suck ( 吸 )
+support ( 精神支柱 )
+sweat ( 流汗 )
+swim ( 潜水 游泳 水下 )
+swirl ( 扭曲 )
+symmetry ( 对称 左对称 左右对称 )
+talisman ( 符咒 )
+teach ( 讲课 敲黑板 )
+teapot ( 泡茶 )
+tear ( 撕 )
+thinkwhat ( 想 )
+throw ( 扔 )
+thump ( 锤 )
+tightly ( 黏 )
+tom_door ( 汤姆 开门 )
+turtle ( 乌龟 🐢 )
+twist ( 抱 )
+up_symmetry ( 对称 上对称 上下对称 )
+wallpaper ( 瑞克 壁纸 )
+walnutpad ( 胡桃平板 平板 )
+watch_tv ( 汤姆 电视 )
+wife ( 老婆 )
+worship ( 膜拜 )
+yoasobi ( 群青 )
+zun_point ( ZUN 指 合影 ))])
+2024-10-22 17:23:45 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> peep [mirai:at:3588760845] 
+2024-10-22 17:23:48 V/Bot.3588760845: Group(646532226) <- [mirai:image:{B150C72F-C79C-1D6E-C679-C0B9AC445FD3}.gif, width=720, height=405, size=2131073, type=GIF, isEmoji=false]
+2024-10-22 17:24:00 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> gluing [mirai:at:3588760845] 
+2024-10-22 17:24:02 V/Bot.3588760845: Group(646532226) <- [mirai:image:{8525F9F9-B1A5-6A4A-0103-D5131E0F4C67}.png, width=600, height=600, size=513565, type=PNG, isEmoji=false]
+2024-10-22 17:24:45 V/Bot.3588760845: [沙邮工具人(795836745)] 你呢(2979276763) -> 有接六点外卖代取的吗？
+2024-10-22 17:25:27 V/Bot.3588760845: Event: BotOfflineEvent.Dropped(bot=Bot(3588760845), cause=HeartbeatFailedException: 3588760845.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3588760845.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2024-10-22 17:27:09 W/Bot.3588760845: Connection lost, reconnecting... (HeartbeatFailedException: 3588760845.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3588760845.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2024-10-22 17:27:09 V/Bot.3588760845: Event: NudgeEvent(from=NormalMember(1479899763), target=NormalMember(3194610798), subject=Group(790180599), action=拍了拍, suffix=的抹茶芭菲)
+2024-10-22 17:27:09 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 你怎么一进来就两级
+2024-10-22 17:27:09 I/UnidbgFetchQsign: Bot(3588760845) initialize by https://qsign.chahuyun.cn
+2024-10-22 17:27:09 I/UnidbgFetchQsign: Bot(3588760845) initialize complete
+2024-10-22 17:27:09 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> pet [mirai:at:3109141338] 
+2024-10-22 17:27:09 W/Bot.3588760845: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 3588760845.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "net.mamoe.mirai.contact.Member.getNameCard()" because "m" is null
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.getNameOrNick(MiraiPetpet.java:556)
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.responseMessage(MiraiPetpet.java:233)
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.onGroupMessage(MiraiPetpet.java:159)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:605)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:605)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2024-10-22 17:27:10 V/Bot.3588760845: [沉淀(646532226)] 汉兜波特(3944027723) -> [mirai:quote:[mirai:source:ids=[422755], internalIds=[2135655302], from 3109141338 to 646532226 at 1729589228], content=<not yet initialized>][mirai:image:{A8848C7A-61FD-32C4-6A3C-E381345FAC78}.png, width=1497, height=2573, size=421956, type=PNG, isEmoji=false][不支持的消息#-1573283381]
+2024-10-22 17:27:13 I/Bot.3588760845: Login successful
+2024-10-22 17:27:13 I/Bot.3588760845: Saved account secrets to local cache for fast login.
+2024-10-22 17:27:13 I/Bot.3588760845: Login successful.
+2024-10-22 17:27:13 V/Bot.3588760845: Event: BotOnlineEvent(bot=Bot(3588760845))
+2024-10-22 17:27:13 V/Bot.3588760845: Event: BotReloginEvent(bot=Bot(3588760845), cause=null)
+2024-10-22 17:27:13 I/Bot.3588760845: Reconnected successfully in 4.054s.
+2024-10-22 17:27:33 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> chase_train [mirai:at:3109141338] 
+2024-10-22 17:27:33 W/Bot.3588760845: An exception occurred when processing event. Subscriber scope: '<unnamed>'. Broadcaster scope: 'Bot 3588760845.EventDispatcher'
+java.lang.NullPointerException: Cannot invoke "net.mamoe.mirai.contact.Member.getNameCard()" because "m" is null
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.getNameOrNick(MiraiPetpet.java:556)
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.responseMessage(MiraiPetpet.java:233)
+	at petpet-6.2.jar//moe.dituon.petpet.mirai.MiraiPetpet.onGroupMessage(MiraiPetpet.java:159)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:605)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$1.invoke(EventChannel.kt:605)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:51)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2024-10-22 17:27:41 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> ？
+2024-10-22 17:27:45 V/Bot.3588760845: [沉淀(646532226)] 道难(2894566646) -> 怎么寄了
+2024-10-22 17:27:47 V/Bot.3588760845: [沉淀(646532226)] 汉兜波特(3944027723) -> [mirai:quote:[mirai:source:ids=[422760], internalIds=[1252203852], from 2894566646 to 646532226 at 1729589266], content=<not yet initialized>][mirai:image:{F255CAFA-C30C-98C6-D36F-B308B01F8D0B}.png, width=1497, height=2909, size=471706, type=PNG, isEmoji=false][不支持的消息#-452158347]

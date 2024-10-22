@@ -1,0 +1,43 @@
+# 开关 search:搜索图片的引擎开关 sexy:涩图库来源开关
+enable: 
+  search: 
+    google: true
+    ascii2d: true
+    iqdb: true
+    saucenao: true
+    yandex: true
+  sexy: 
+    pixiv: true
+    yande: true
+    konachan: true
+    lolicon: true
+    localImage: true
+# 转发模式 rankAndTagAndUserByForward:排行榜、标签、作者三个变成转发模式; imageToForward:查看图片详情变成转发模式 可发送该作品的所有图片
+forward: 
+  rankAndTagAndUserByForward: false
+  imageToForward: false
+# Token必填项 https://www.acgmx.com/ https://saucenao.com/user.php
+token: 
+  acgmx: ''
+  saucenao: ''
+# 代理 默认clash 127.0.0.1:7890 不知道的话window 搜索代理设置
+proxy: 
+  host: ''
+  port: -1
+# 自动撤回 涩图专用 单位ms
+recall: 5000
+tlsVersion: TLSv1.2
+# 缓存 图片缓存将按照来源分开存放
+cache: 
+  enable: true
+  directory: 'C:\Users\道难\Desktop\各种文件夹（常用）\mcl-2.1\image'
+# 本地图库目录
+localImagePath: 'C:\Users\道难\Desktop\各种文件夹（常用）\mcl-2.1\image'
+# Google搜索配置项 镜像源和搜索显示的数量
+google: 
+  googleUrl: 'https://www.google.com.hk'
+  resultNum: 2
+# 涩图晶格化开关
+lowPoly: false
+# lolicon图大小:original,regular,small,thumb,mini
+loliconSize: original

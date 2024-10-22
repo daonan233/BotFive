@@ -5,14 +5,14 @@
         {
             "text": "$txt1[好消息! 好消息!]",
             "color": "#dc3023",
-            "pos": [0,487,900],
-            "position": ["CENTER", "BOTTOM"],
-            "size": 104,
-            "font": "MiSans Bold",
+            "pos": [650,487,900],
+            "size": 36,
+            "font": "MiSans",
+            "style": "BOLD",
             "wrap": "ZOOM",
             "align": "CENTER",
             "strokeColor": "#ffd700",
-            "strokeSize": 10,
+            "strokeSize": 6,
             "greedy": true
         }
     ],

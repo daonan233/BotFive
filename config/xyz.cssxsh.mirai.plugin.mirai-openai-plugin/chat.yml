@@ -1,7 +1,7 @@
 # 等待停止时间
-timeout: 20000
-# Model
-model: 'text-davinci-003'
+timeout: 60000
+# GPT Model
+gpt_model: 'gpt-3.5-turbo'
 # Maximum length
 max_tokens: 512
 # Temperature

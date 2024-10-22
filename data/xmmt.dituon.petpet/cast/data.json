@@ -2,10 +2,8 @@
     "type": "IMG",
     "avatar": [{
         "type": "TO",
-        "pos": [10, 170, 153, 153 ],
-        "round": true,
-        "rotate":true,
-        "angle":360,
+        "pos":  [-16, 301, 158, 158],
+        "angle": 288,
         "avatarOnTop": false
     }],
     "text": [],

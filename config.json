@@ -2,7 +2,7 @@
   "module_packages": [
     "mcl:org.itxtech.mcl.module.builtin"
   ],
-  "mirai_repo": "https://repo.mirai.mamoe.net/keep/mcl",
+  "mirai_repo": "https://github.com/project-mirai/mirai-repo-mirror",
   "maven_repo": [
     "https://maven.aliyun.com/repository/public"
   ],

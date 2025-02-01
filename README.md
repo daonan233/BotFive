@@ -10,6 +10,7 @@
 - 群聊大富翁文字版：MonopolyForMirai-0.1.2.mirai2<br>
 - 生成5000兆円欲しい!风格图片：5000choyen-1.0.0<br>
 - 基于chatGPT的智能问答：mirai-openai-plugin-1.1.0.mirai2<br>
+- 基于kimi的ai猫娘回复：BotFiveNew-0.1.0<br>
 
 ___
 
@@ -25,6 +26,7 @@ ___
 2.   <https://github.com/Dituon/petpet>
 3.   <https://github.com/xszqxszq/5000choyen-mirai>
 4.   <https://github.com/cssxsh/mirai-openai-plugin>
+5.   <https://github.com/daonan233/kimiChatBot>
 
 ### 参考网站：
 
